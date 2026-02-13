@@ -102,28 +102,50 @@ export default function App() {
   const [attempts, setAttempts] = useState(0); 
   const [copied, setCopied] = useState(false); 
   const [timeLeft, setTimeLeft] = useState(''); 
+  const [stats, setStats] = useState({ streak: 0, max: 0 }); // NEW: Stats state
   const inputRef = useRef(null);
 
   useEffect(() => {
-    const todayStr = new Date().toDateString(); 
+    const today = new Date();
+    today.setHours(0,0,0,0);
+    const todayStr = today.toDateString(); 
+    
+    const yesterday = new Date(today);
+    yesterday.setDate(yesterday.getDate() - 1);
+    const yesterdayStr = yesterday.toDateString();
+
     const savedDate = localStorage.getItem('gchq-date');
     const loadedPuzzles = getTodaysPuzzles();
+    
     let savedPuzzlesToday = parseInt(localStorage.getItem('gchq-puzzles-today'), 10) || 0;
     let savedScore = parseInt(localStorage.getItem('gchq-score'), 10) || 0;
     let savedHistory = JSON.parse(localStorage.getItem('gchq-history')) || [];
-    
+    let currentStreak = parseInt(localStorage.getItem('gchq-streak'), 10) || 0;
+    let maxStreak = parseInt(localStorage.getItem('gchq-max-streak'), 10) || 0;
+
+    // --- STREAK LOGIC ---
     if (savedDate !== todayStr) {
-      savedPuzzlesToday = 0; savedScore = 0; savedHistory = [];
+      // If they didn't play yesterday, streak dies
+      if (savedDate !== yesterdayStr) {
+        currentStreak = 0;
+      }
+      
+      savedPuzzlesToday = 0; 
+      savedScore = 0; 
+      savedHistory = [];
+      
       localStorage.setItem('gchq-date', todayStr);
       localStorage.setItem('gchq-puzzles-today', '0');
       localStorage.setItem('gchq-score', '0');
       localStorage.setItem('gchq-history', JSON.stringify([]));
+      localStorage.setItem('gchq-streak', currentStreak.toString());
     }
     
     setTodaysPuzzles(loadedPuzzles);
     setPuzzlesToday(savedPuzzlesToday);
     setScore(savedScore);
     setScoreHistory(savedHistory);
+    setStats({ streak: currentStreak, max: maxStreak });
     
     if (savedPuzzlesToday >= 5) setGameState('done_for_day');
     else if (savedPuzzlesToday > 0) setGameState('playing');
@@ -167,9 +189,20 @@ export default function App() {
         const newScore = score + pointsEarned;
         const newHistory = [...scoreHistory, pointsEarned];
         const newPuzzlesToday = puzzlesToday + 1;
+        
         localStorage.setItem('gchq-score', newScore);
         localStorage.setItem('gchq-history', JSON.stringify(newHistory));
         localStorage.setItem('gchq-puzzles-today', newPuzzlesToday);
+
+        // STREAK UPDATE: If they just finished the 5th puzzle
+        if (newPuzzlesToday === 5) {
+          const newStreak = stats.streak + 1;
+          const newMax = Math.max(stats.max, newStreak);
+          localStorage.setItem('gchq-streak', newStreak.toString());
+          localStorage.setItem('gchq-max-streak', newMax.toString());
+          setStats({ streak: newStreak, max: newMax });
+        }
+
         setTimeout(() => {
           setScore(newScore); setScoreHistory(newHistory); setPuzzlesToday(newPuzzlesToday);
           setGuess(''); setShowHint(false); setAttempts(0); setStatus('idle');
@@ -276,10 +309,25 @@ export default function App() {
           <div className="w-20 h-20 bg-emerald-500/10 rounded-full flex items-center justify-center mx-auto mb-4 border border-emerald-500/20">
             <svg className="w-10 h-10 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
           </div>
-          <h1 className="text-3xl font-light tracking-tight text-white">Transmission Complete</h1>
-          <div className="pt-8 mt-6 border-t border-slate-800 bg-slate-950/80 -mx-6 sm:-mx-10 px-6 sm:px-10 pb-8 flex flex-col items-center">
-             <p className="text-slate-500 text-sm uppercase tracking-widest font-bold mb-2">Final Daily Score</p>
-             <p className="text-emerald-400 font-mono text-6xl mb-6">{score} <span className="text-3xl text-slate-600">/ 500</span></p>
+          <h1 className="text-3xl font-light tracking-tight text-white uppercase">Transmission Complete</h1>
+          
+          {/* DOSSIER / STATS SECTION */}
+          <div className="flex justify-center space-x-8 py-4 border-b border-slate-800">
+            <div>
+              <p className="text-slate-500 text-xs font-bold uppercase tracking-widest">Streak</p>
+              <p className="text-2xl text-white font-mono">{stats.streak}</p>
+            </div>
+            <div>
+              <p className="text-slate-500 text-xs font-bold uppercase tracking-widest">Max</p>
+              <p className="text-2xl text-white font-mono">{stats.max}</p>
+            </div>
+            <div>
+              <p className="text-slate-500 text-xs font-bold uppercase tracking-widest">Score</p>
+              <p className="text-2xl text-emerald-400 font-mono">{score}</p>
+            </div>
+          </div>
+
+          <div className="pt-8 mt-6 bg-slate-950/80 -mx-6 sm:-mx-10 px-6 sm:px-10 pb-8 flex flex-col items-center">
              <div className="mb-8 w-full bg-slate-900 border border-slate-700 rounded-xl p-4 flex flex-col items-center">
                 <span className="text-slate-500 text-xs font-bold uppercase tracking-widest mb-1">Next Intel Drop</span>
                 <span className="text-indigo-400 font-mono text-3xl animate-pulse">{timeLeft}</span>
@@ -293,7 +341,6 @@ export default function App() {
              </button>
           </div>
         </div>
-        <button onClick={() => { localStorage.setItem('gchq-date', 'force-reset'); window.location.reload(); }} className="absolute bottom-4 left-1/2 -translate-x-1/2 text-xs text-slate-800 hover:text-rose-500 uppercase font-bold">[ Dev Override ]</button>
       </div>
     );
   }
