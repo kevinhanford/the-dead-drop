@@ -1,1402 +1,702 @@
 [
   {
     "id": 1,
-    "title": "Intercept 001",
-    "text": "Agent, we intercepted a communication, but it looks like a shopping list. What is the target looking for? \n\n- Lima beans\n- India pale ale\n- Golf clubs\n- Hotel bookings\n- Tango lessons",
-    "hint": "Look closely at the first letter of each item.",
-    "answerHash": "99a7026172d42714d0293e5598ec1c8e8260d7d0c4b8582ad002c1883494e216"
+    "title": "Intercept Alpha",
+    "text": "Decrypt the following shift cipher (ROT-1):\n\nJ O U F M",
+    "hint": "Move each letter backward by exactly one space in the alphabet.",
+    "answerHash": "96eebba49dbbf422d245f02290f9d4ed0eb02da9daa6bbceefb162800ff42481"
   },
   {
     "id": 2,
-    "title": "Sequence Alpha",
-    "text": "Complete the agent rotation sequence:\n\nM, V, E, M, J, S, U, _",
-    "hint": "Look up at the night sky. Think astronomically.",
-    "answerHash": "1b16b1df538ba12dc3f97edbb85caa7050d46c148134290feba80f8236c83db9"
-  },
-  {
-    "id": 3,
-    "title": "The Fibonacci Drop",
-    "text": "The lock to the safe room requires the next number in this sequence to open:\n\n1, 1, 2, 3, 5, 8, _",
-    "hint": "Add the two previous numbers together.",
-    "answerHash": "3fdba35f04dc8c462986c992bcf875546257113072a909c162f7e470e581e278"
-  },
-  {
-    "id": 4,
-    "title": "Keyboard Cipher",
-    "text": "A mole left this note at the drop site. The key is to look at your keyboard, but shift your perspective exactly one key to the left.\n\nO E T O D E",
-    "hint": "What letter is directly to the left of 'O' on a QWERTY keyboard?",
-    "answerHash": "c61473e7e71f1ee95d9d6593e11f3a24097dcb66eccbd06270af332ca16f849c"
-  },
-  {
-    "id": 5,
-    "title": "Numerical Sequence Beta",
-    "text": "Identify the next character in this sequence to bypass the firewall:\n\nO, T, T, F, F, S, S, E, _",
-    "hint": "Count out loud starting from the number one.",
-    "answerHash": "1b16b1df538ba12dc3f97edbb85caa7050d46c148134290feba80f8236c83db9"
-  },
-  {
-    "id": 6,
-    "title": "Riddle 01",
-    "text": "I speak without a mouth and hear without ears. I have no body, but I come alive with wind. What am I?",
+    "title": "Acoustic Anomaly",
+    "text": "I speak without a mouth and hear without ears. I have no body, but I come alive with the wind.",
     "hint": "You might hear this if you yell into a canyon.",
     "answerHash": "092c79e8f80e559e404bcf660c48f3522b67aba9ff1484b0367e1a4ddef7431d"
   },
   {
-    "id": 7,
-    "title": "Binary Progression",
-    "text": "The server logs show this pattern. What is the next number?\n\n0, 1, 10, 11, 100, _",
-    "hint": "This is how computers count (Binary). What comes after 4?",
-    "answerHash": "16dc368a89b428b2485484313ba67a3912ca03f2b2b42429174a4f8b3dc84e44"
+    "id": 3,
+    "title": "Sequence Protocol",
+    "text": "Identify the next entry in the sequence:\n\nJ, F, M, A, M, J, J, A, S, ?",
+    "hint": "Think about the calendar.",
+    "answerHash": "65c74c15a686187bb6bbf9958f494fc6b80068034a659a9ad44991b08c58f2d2"
   },
   {
-    "id": 8,
-    "title": "The Cartographer's Secret",
-    "text": "I have cities, but no houses. I have mountains, but no trees. I have water, but no fish. What am I?",
+    "id": 4,
+    "title": "Cartographer's Dilemma",
+    "text": "I have cities, but no houses. I have mountains, but no trees. I have water, but no fish.",
     "hint": "You use this to navigate.",
     "answerHash": "60be9861750facbfad8758254a2f76c0cfe78d54459a3bc187d49b1401fcd8e8"
   },
   {
-    "id": 9,
-    "title": "Weight Shift",
-    "text": "Forward I am heavy, but backward I am not. What am I?",
-    "hint": "Read the answer backward. 'Not' backward is 'ton'.",
-    "answerHash": "d537bc9c04d322df18388944bb0f7da74969857d482b4bb6955b95cc10478489"
+    "id": 5,
+    "title": "Phonetic Intercept",
+    "text": "Sierra - Echo - Charlie - Romeo - Echo - Tango",
+    "hint": "Extract the primary identifier (the first letter) of each word.",
+    "answerHash": "2bb80d537b1da3e38bd30361aa855686bde0eacd7162fef6a25fe97bf527a25b"
   },
   {
-    "id": 10,
-    "title": "The Final Lock",
-    "text": "What has keys but can't open locks?",
-    "hint": "It is a musical instrument.",
-    "answerHash": "1d78e018e405ef26b7f7581336a2a4c556c3783eaa763978cbd7d2ddd0adb3ad"
-  },
-  {
-    "id": 11,
-    "title": "Caesar's Ghost",
-    "text": "An old operative is using a basic shift cipher. If 'A' becomes 'B', and 'B' becomes 'C', decrypt this target:\n\nT Q Z",
-    "hint": "Shift every letter backwards by exactly one position.",
-    "answerHash": "57d4aa377250296d19d9f55f132db4bc2725c657672b0c3e54467839e6c05356"
-  },
-  {
-    "id": 12,
-    "title": "Temporal Sequence",
-    "text": "The timestamps on the leaked documents follow a strict pattern. What is the missing character?\n\nJ, F, M, A, M, J, J, A, S, O, N, _",
-    "hint": "Think about the calendar year.",
-    "answerHash": "18ac3e7343f016890c510e93f935261169d9e3f565436429830faf0934f4f8e4"
-  },
-  {
-    "id": 13,
-    "title": "The Courier's Package",
-    "text": "The courier is carrying an item that begins with an E, ends with an E, but only contains one single letter. What is it?",
-    "hint": "It has a stamp on it.",
-    "answerHash": "4c503ca67761e5c4aaecfe996244c25d8c0b40902d1085c85b4468bd567548c6"
-  },
-  {
-    "id": 14,
-    "title": "Numeric Cipher",
-    "text": "Translate the following numerical transmission into a five-letter word:\n\n1, 12, 16, 8, 1",
-    "hint": "A = 1, B = 2, C = 3...",
-    "answerHash": "8ed3f6ad685b959ead7022518e1af76cd816f8e8ec7ccdda1ed4018e8f2223f8"
-  },
-  {
-    "id": 15,
-    "title": "The Paradox Intercept",
-    "text": "I can be cracked, made, told, and played. What am I?",
-    "hint": "Comedians tell these.",
-    "answerHash": "a2fa4cfad054c30de64ae9fd9807b2bb562eb12619b66d0bcf9629cd8c969fe0"
-  },
-  {
-    "id": 16,
-    "title": "Dictionary Anomaly",
-    "text": "Identify the target word: It is an 11-letter English word that is always spelled incorrectly in every single dictionary.",
-    "hint": "Read the puzzle description very, very literally.",
-    "answerHash": "38b9ab80aeb546194eb90135096146e23ca3f9590fc8ff599fd074603f82d884"
-  },
-  {
-    "id": 17,
-    "title": "The Sub-Deck Drop",
-    "text": "Type the exact six-letter string formed by looking at the top letter row of your keyboard, and moving straight down one row.",
-    "hint": "Look directly beneath Q W E R T Y.",
-    "answerHash": "8588310a98676af6e22563c1559e1ae20f85950792bdcd0c8f334867c54581cd"
-  },
-  {
-    "id": 18,
-    "title": "Phonetic Color",
-    "text": "Identify the getaway vehicle's color based on this radio chatter:\n\nWhiskey, Hotel, India, Tango, Echo",
-    "hint": "It's the NATO phonetic alphabet again.",
-    "answerHash": "018fa96a44715c90bf93be148069cb28dd45d398f2cc75aa1565311f6e55d174"
-  },
-  {
-    "id": 19,
-    "title": "Retrograde Analysis",
-    "text": "The agent's location was transmitted backwards to evade scanners. Where is the drop?\n\nN I L R E B",
-    "hint": "It's a major city in Germany.",
-    "answerHash": "fb38a93fd89e1a5fc7852a5d7109e321d23a721a1899292273ac5a21dc4db378"
-  },
-  {
-    "id": 20,
-    "title": "The Vault Combination",
-    "text": "The safe requires a 4-digit code. \nThe first digit is exactly half the second. \nThe third is the sum of the first two. \nThe fourth is the second digit minus the first.\n\nIf the first digit is 2, what is the code?",
-    "hint": "If the 1st is 2, the 2nd must be 4. Now do the math for the rest.",
-    "answerHash": "1b5318434397d6eec58afbac28836ffe3254baabb665b87ce6b678394b97ee2c"
-  },
-  {
-    "id": 21,
-    "title": "Prime Directive",
-    "text": "The firewall port sequence follows a fundamental mathematical rule:\n\n2, 3, 5, 7, 11, 13, 17, _",
-    "hint": "These numbers can only be divided by 1 and themselves.",
-    "answerHash": "9400f1b21cb527d7fa3d3eabba93557a18ebe7a2ca4e471cfe5e4c5b4ca7f767"
-  },
-  {
-    "id": 22,
-    "title": "The Ghost Agent",
-    "text": "I come once in a minute, twice in a moment, but never in a thousand years. Who am I?",
-    "hint": "Look at the words themselves, not the concept of time.",
+    "id": 6,
+    "title": "Temporal Logic",
+    "text": "What occurs once in a minute, twice in a moment, but never in a thousand years?",
+    "hint": "Look at the letters, not the concept of time.",
     "answerHash": "62c66a7a5dd70c3146618063c344e531e6d4b59e379808443ce962b3abd63c5a"
   },
   {
+    "id": 7,
+    "title": "Weight Distribution",
+    "text": "Forward I am heavy, but backward I am not.",
+    "hint": "Spell the word for a heavy weight backward.",
+    "answerHash": "d537bc9c04d322df18388944bb0f7da74969857d482b4bb6955b95cc10478489"
+  },
+  {
+    "id": 8,
+    "title": "Mathematical Override",
+    "text": "Divide 30 by half and add 10. What is the final extraction code?",
+    "hint": "Dividing by 0.5 is the same as multiplying by 2.",
+    "answerHash": "ff5a1ae012afa5d4c889c50ad427aaf545d31a4fac04ffc1c4d03d403ba4250a"
+  },
+  {
+    "id": 9,
+    "title": "Atbash Protocol",
+    "text": "Decrypt this message using the Atbash cipher (A=Z, B=Y, C=X):\n\nZ T V M G",
+    "hint": "Reverse the alphabet. Z becomes A, T becomes G...",
+    "answerHash": "d4f0bc5a29de06b510f9aa428f1eedba926012b591fef7a518e776a7c9bd1824"
+  },
+  {
+    "id": 10,
+    "title": "Light and Dark",
+    "text": "I am only there when there is light, but direct light kills me. What am I?",
+    "hint": "You cast this on a sunny day.",
+    "answerHash": "0bb09d80600eec3eb9d7793a6f859bedde2a2d83899b70bd78e961ed674b32f4"
+  },
+  {
+    "id": 11,
+    "title": "The Fragile Asset",
+    "text": "I am so fragile that simply saying my name breaks me.",
+    "hint": "Shhh.",
+    "answerHash": "e6c18fdbe59783dfefef3595cd288bcb7ce912d36854b5e8faaef31235d9031b"
+  },
+  {
+    "id": 12,
+    "title": "Two-Faced",
+    "text": "I have a head and a tail, but no body.",
+    "hint": "You flip this to make a decision.",
+    "answerHash": "b3a1984ba0b1d8ad7f9dc881dfd9c9dc78c76c647a7692fbbfd6fcdcb9d9a121"
+  },
+  {
+    "id": 13,
+    "title": "Faceless Worker",
+    "text": "I have hands but no arms, a face but no eyes.",
+    "hint": "Tick tock.",
+    "answerHash": "d8198efa3604d164853468608c55efa148bc56e3564d5a30232bf98b8ab43aeb"
+  },
+  {
+    "id": 14,
+    "title": "Trace Evidence",
+    "text": "The more you take, the more you leave behind.",
+    "hint": "Look behind you when walking in the snow.",
+    "answerHash": "1a11a5a27be607e96d0205aa1304d7f39c97416ab35892049129d3f6eafa90fb"
+  },
+  {
+    "id": 15,
+    "title": "Linguistic Paradox",
+    "text": "What five-letter word becomes shorter when you add two letters to it?",
+    "hint": "The word literally describes a lack of length.",
+    "answerHash": "f9b0078b5df596d2ea19010c001bbd009e651de2c57e8fb7e355f31eb9d3f739"
+  },
+  {
+    "id": 16,
+    "title": "The Void",
+    "text": "I am greater than God, more evil than the devil, the poor have me, the rich need me, and if you eat me, you'll die.",
+    "hint": "What is in an empty room?",
+    "answerHash": "1785cfc3bc6ac7738e8b38cdccd1af12563c2b9070e07af336a1bf8c0f772b6a"
+  },
+  {
+    "id": 17,
+    "title": "The Informant",
+    "text": "If you have me, you want to share me. If you share me, you haven't kept me.",
+    "hint": "Classified information.",
+    "answerHash": "2bb80d537b1da3e38bd30361aa855686bde0eacd7162fef6a25fe97bf527a25b"
+  },
+  {
+    "id": 18,
+    "title": "One-Way Street",
+    "text": "What goes up but never comes down?",
+    "hint": "You get a year older on your birthday.",
+    "answerHash": "013f54400c82da08037759ada907a8b864e97de81c088a182062c4b5622fd2ab"
+  },
+  {
+    "id": 19,
+    "title": "Viral Payload",
+    "text": "You can catch me but you cannot throw me.",
+    "hint": "A runny nose and a cough.",
+    "answerHash": "e272deecde720ffc773d7a6a81adabbc366ccbb64da5abdb6b26f52cd3f952cb"
+  },
+  {
+    "id": 20,
+    "title": "Featherweight",
+    "text": "I am as light as a feather, yet the strongest operative cannot hold me for five minutes.",
+    "hint": "You do this to stay alive under water.",
+    "answerHash": "367a1c592458c1b0ab948e37f993feeda943b0a03b70ee6633c51beb78de8ed8"
+  },
+  {
+    "id": 21,
+    "title": "Liquid Storage",
+    "text": "I am full of holes but I can still hold water.",
+    "hint": "You use this to clean the dishes.",
+    "answerHash": "46248ac689828800502186d8753cc5717c5c2b47712e8158705a510dc892f00b"
+  },
+  {
+    "id": 22,
+    "title": "Locksmith's Bane",
+    "text": "I have keys, but no locks. I have space, but no room. You can enter, but you can’t go outside.",
+    "hint": "Think of what you use to type... or play music. (We want the typing one).",
+    "answerHash": "91f060a9ad4b39eb228d9537292fab19d252faed06c169d0fdcb4a90560f5676"
+  },
+  {
     "id": 23,
-    "title": "Roman Intercept",
-    "text": "The ancient sleeper cell is awakening. What is the next passcode in their sequence?\n\nV I I I, I X, X, X I, _",
-    "hint": "Count up in Roman numerals. 8, 9, 10, 11...",
-    "answerHash": "cdca5ece79dc4dc618f199842824ba62592729d1641dee9c9f1284dda6a7e1f1"
+    "title": "The Drying Paradox",
+    "text": "What gets wetter the more it dries?",
+    "hint": "You use this after a shower.",
+    "answerHash": "10ca50a8a7148afd6d2a563e8ef8e05cfedd17fc97a6a5327cf9e5300b933e4b"
   },
   {
     "id": 24,
-    "title": "Border Dispute",
-    "text": "A covert transport plane crashes exactly on the border of France and Germany. Where do international laws require them to bury the survivors?",
-    "hint": "Read the briefing very carefully. Pay attention to the state of the passengers.",
-    "answerHash": "20aeff0494e828d188c704e1f488a589b15ae01d11f6cb129f62129caa6cc543"
-  },
-  {
-    "id": 25,
-    "title": "The Letter Drop",
-    "text": "What occurs once in every year, twice in every month, but never in a day?",
-    "hint": "Look at the spelling of the timeframes.",
-    "answerHash": "454349e422f05297191ead13e21d3db520e5abef52055e4964b82fb213f593a1"
-  },
-  {
-    "id": 26,
-    "title": "Elemental Breach",
-    "text": "The bio-lab lock uses the building blocks of the universe. What is the next letter?\n\nH, He, Li, Be, B, C, N, O, _",
-    "hint": "Think back to chemistry class. The Periodic Table.",
-    "answerHash": "252f10c83610ebca1a059c0bae8255eba2f95be4d1d7bcfa89d7248a82d9f111"
-  },
-  {
-    "id": 27,
-    "title": "Audio Surveillance",
-    "text": "We tapped the room. The target said: 'I am an odd number. Take away a letter and I become even.' What number is the target?",
-    "hint": "Write out the names of odd numbers and remove the first letter.",
-    "answerHash": "3ba8d02b16fd2a01c1a8ba1a1f036d7ce386ed953696fa57331c2ac48a80b255"
-  },
-  {
-    "id": 28,
-    "title": "The Silent Room",
-    "text": "The more there is of this in the interrogation room, the less you can see. What is it?",
+    "title": "Blind Spot",
+    "text": "The more there is, the less you see.",
     "hint": "Turn off the lights.",
     "answerHash": "14272bd361c9990628cab4ecf17f28120b2a40655560992b18c7a4a5c3372417"
   },
   {
+    "id": 25,
+    "title": "The Horizon",
+    "text": "I am always coming, but I never arrive.",
+    "hint": "The day after today.",
+    "answerHash": "bafd151a86f9a573b153e76e3a8a0053b3340ce304a301a5354288fb18bce848"
+  },
+  {
+    "id": 26,
+    "title": "Alphabetical Error",
+    "text": "Where does today come before yesterday?",
+    "hint": "Think of a book full of words.",
+    "answerHash": "177ca70f42def1238e36da329473263ed3feadd14094c079a2230be0193436f5"
+  },
+  {
+    "id": 27,
+    "title": "Center Point",
+    "text": "What is in the exact middle of nowhere?",
+    "hint": "Look at the letters of the word 'nowhere'.",
+    "answerHash": "aaa9402664f1a41f40ebbc52c9993eb66aeb366602958fdfaa283b71e64db123"
+  },
+  {
+    "id": 28,
+    "title": "Alpha and Omega",
+    "text": "I am the beginning of everything, the end of everywhere. I'm the beginning of eternity, the end of time.",
+    "hint": "Look closely at the letters of those words.",
+    "answerHash": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea"
+  },
+  {
     "id": 29,
-    "title": "Shift Cipher Delta",
-    "text": "Decode the following using a simple substitution where A=26, B=25, C=24, etc.\n\nS V O O L",
-    "hint": "It's the alphabet written backward.",
-    "answerHash": "2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824"
+    "title": "The Carrier",
+    "text": "I start with an E, I end with an E, but I usually only contain one letter.",
+    "hint": "You put a stamp on it.",
+    "answerHash": "4c503ca67761e5c4aaecfe996244c25d8c0b40902d1085c85b4468bd567548c6"
   },
   {
     "id": 30,
-    "title": "Grid Protocol",
-    "text": "If a red house is made of red bricks, and a blue house is made of blue bricks, what is a greenhouse made of?",
-    "hint": "Think about what a greenhouse actually is.",
-    "answerHash": "132a1a391cce181c490a2c4350597221fad9ae207714d1f9a10f67bcb1c8288d"
+    "title": "Combustion",
+    "text": "Feed me and I live, yet give me a drink and I die.",
+    "hint": "A camper needs this to stay warm.",
+    "answerHash": "dc9f28b12dd1818ee42ffc92ecb940386214598837348d30d3c6c0b7b57e34c9"
   },
   {
     "id": 31,
-    "title": "Sequential Logic",
-    "text": "Enter the missing character from this repeating cycle:\n\nS, M, T, W, T, F, _",
-    "hint": "Look at a calendar.",
-    "answerHash": "043a718774c572bd8a25adbeb1bfcd5c0256ae11cecf9f9c3f925d0e52beaf89"
-  },
-  {
-    "id": 32,
-    "title": "The Waterway",
-    "text": "What can run but never walks, has a mouth but never talks, has a head but never weeps, has a bed but never sleeps?",
-    "hint": "It flows into the ocean.",
+    "title": "Current Intelligence",
+    "text": "I run but never walk, I murmur but never talk, I have a bed but never sleep.",
+    "hint": "A flowing body of water.",
     "answerHash": "5f5a8ed8f139be6df7cf8f4a91d3e4649961a98c82fd521c18d6f292b031a319"
   },
   {
-    "id": 33,
-    "title": "Vowel Protocol",
-    "text": "What is the next letter in this highly classified linguistic sequence?\n\nA, E, I, O, _",
-    "hint": "The building blocks of English pronunciation.",
-    "answerHash": "0bfe935e70c321c7ca3afc75ce0d0ca2f98b5422e008bb31c00c6d7f1f1c0ad6"
-  },
-  {
-    "id": 34,
-    "title": "Zero Sum",
-    "text": "I am a three-digit number. My second digit is four times bigger than the third digit. My first digit is three less than my second digit. What number am I?",
-    "hint": "Start with the third digit. If it's 1, the second is 4, and the first is 1. Does 141 work?",
-    "answerHash": "2c7d5490e6050836f8f2f0d496b1c8d6a38d4ffac2b898e6e77751bdcd20ebf5"
-  },
-  {
-    "id": 35,
-    "title": "Directional Tap",
-    "text": "The target's movements follow a strict compass pattern. Where are they heading next?\n\nN, E, S, _",
-    "hint": "Never Eat Shredded Wheat.",
-    "answerHash": "50e721e49c013f00c62cf59f2163542a9d8df02464efeb615d31051b0fddc326"
-  },
-  {
-    "id": 36,
-    "title": "The Sibling Code",
-    "text": "Agent Smith has four daughters, and each of his daughters has a brother. How many children does Agent Smith have in total?",
-    "hint": "All the daughters share the same brother.",
-    "answerHash": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d"
-  },
-  {
-    "id": 37,
-    "title": "Digital Root",
-    "text": "Multiply all the numbers on a standard telephone keypad together. What is the total?",
-    "hint": "Look very closely at all the numbers on a keypad, particularly the bottom row.",
-    "answerHash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9"
-  },
-  {
-    "id": 38,
-    "title": "Mirror Intercept",
-    "text": "What looks like half an apple?",
-    "hint": "Symmetry.",
-    "answerHash": "0d96a59d819c4bbac3cd94e4392a544e36fddc8b024612ffc113a81291e22246"
-  },
-  {
-    "id": 39,
-    "title": "The Hollow Cylinder",
-    "text": "What has an eye but cannot see?",
-    "hint": "It is used to sew clothes.",
-    "answerHash": "09881f6ed93360a2f6ad81f435a8ca51ca4575d0f954f197ff8f7d16c6565562"
-  },
-  {
-    "id": 40,
-    "title": "The Endless Knot",
-    "text": "What has a head and a tail but no body?",
-    "hint": "You can flip this in the air.",
-    "answerHash": "b3a1984ba0b1d8ad7f9dc881dfd9c9dc78c76c647a7692fbbfd6fcdcb9d9a121"
-  },
-  {
-    "id": 41,
-    "title": "Cold Storage",
-    "text": "You walk into a dark cabin with only one match. There is an oil lamp, a fireplace, and a candle. To survive, what do you light first?",
-    "hint": "Chronology is key. You can't light anything without the source.",
-    "answerHash": "f3b0ac454256f1c14f236fd5663025e897b94ba9b7ca6d65939ecaca1e6c9793"
-  },
-  {
-    "id": 42,
-    "title": "Visual Cipher",
-    "text": "I have branches, but no fruit, trunk, or leaves. What am I?",
-    "hint": "People put their money here.",
+    "id": 32,
+    "title": "Financial Sector",
+    "text": "I have branches, but no fruit, trunk, or leaves.",
+    "hint": "Where you keep your money.",
     "answerHash": "4381dc2ab14285160c808659aee005d51255add7264b318d07c7417292c7442c"
   },
   {
+    "id": 33,
+    "title": "The Null Cipher",
+    "text": "I am a number, but when you add me to myself, I am nothing.",
+    "hint": "The concept of nothingness in math.",
+    "answerHash": "f9194e73f9e9459e3450ea10a179cdf77aafa695beecd3b9344a98d111622243"
+  },
+  {
+    "id": 34,
+    "title": "Ignition Sequence",
+    "text": "Tear one off and scratch my head, what once was red is black instead.",
+    "hint": "You use this to start a fire.",
+    "answerHash": "4945a70fa7f9c13fe1931a3372ac5798140d42eba74d0dd805a4a216ed3a8142"
+  },
+  {
+    "id": 35,
+    "title": "Blind Eye",
+    "text": "I have a single eye, but I cannot see.",
+    "hint": "Used with a thread.",
+    "answerHash": "09881f6ed93360a2f6ad81f435a8ca51ca4575d0f954f197ff8f7d16c6565562"
+  },
+  {
+    "id": 36,
+    "title": "Stolen Identity",
+    "text": "It belongs to you, but your friends use it more than you do.",
+    "hint": "What people call you.",
+    "answerHash": "82a3537ff0dbce7eec35d69edc3a189ee6f17d82f353a553f9aa96cb0be3ce89"
+  },
+  {
+    "id": 37,
+    "title": "Global Operative",
+    "text": "I travel the world while staying in the exact same corner.",
+    "hint": "You buy these at the post office.",
+    "answerHash": "e0afcdbf6ad4adf566c572d7f7c34d4dfb85e5122bba750d6a3a5842f915d39b"
+  },
+  {
+    "id": 38,
+    "title": "X-Ray Vision",
+    "text": "What invention lets you look right through a solid wall?",
+    "hint": "It is made of glass.",
+    "answerHash": "44ff7b02c80d38b26dd6aa31d9470aed81b32e10331a3c994fb1a9945fd847ba"
+  },
+  {
+    "id": 39,
+    "title": "The Excavation",
+    "text": "The more you take away from it, the larger it becomes.",
+    "hint": "Digging in the dirt.",
+    "answerHash": "39ee4551970726c324df4ea3bf0760fe4ff35252340bfba7b1d4564454f9ccce"
+  },
+  {
+    "id": 40,
+    "title": "A1Z26 Protocol",
+    "text": "Decrypt the numeric substitution cipher (A=1, B=2):\n\n05 14 09 07 13 01",
+    "hint": "The name of this very project.",
+    "answerHash": "67a4f45f0d1d9bc606486fc42dc4941668e71d34ee500735fe9b7ea4625c687c"
+  },
+  {
+    "id": 41,
+    "title": "Nautical Anomaly",
+    "text": "I am a ship that is specifically designed to sink on purpose.",
+    "hint": "Travels underwater.",
+    "answerHash": "3a48c2443b07faa22ab4b5556b29b69b03f03bb5766f4757b5b57be97d04e1b0"
+  },
+  {
+    "id": 42,
+    "title": "Invisible Force",
+    "text": "I can howl but I have no mouth. I can push but I have no hands.",
+    "hint": "It blows through the trees.",
+    "answerHash": "9b58e68145a79ca0e19957f3e5c88fd92ff2e28a7bd09ed30ee365fc4f9aafe0"
+  },
+  {
     "id": 43,
-    "title": "The Traitor's Name",
-    "text": "The traitor belongs to you, but your friends use it more than you do. What is it?",
-    "hint": "It's what people call you.",
-    "answerHash": "22f6e39681dda266ffaab9c2b2e33a89d011999024157d30d28c5e0bac2aa157"
-  },
-  {
-    "id": 44,
-    "title": "Color Coordination",
-    "text": "What is black when it's clean and white when it's dirty?",
-    "hint": "Used in old classrooms.",
-    "answerHash": "73ffc2e6635e980977d27c0f37a89c32378e71d095a98fe3cef9c3fbeb865ac9"
-  },
-  {
-    "id": 45,
-    "title": "Weightless Cargo",
-    "text": "An operative places this in a barrel, making the barrel lighter. What did they put in?",
-    "hint": "It's an absence of material.",
-    "answerHash": "8e813a561a3808e8abbcfdd3d2292ed909c8fc665136852a600e35fe3a9fabb0"
-  },
-  {
-    "id": 46,
-    "title": "The Ascending Drop",
-    "text": "What goes up but never comes down?",
-    "hint": "It increases every year on your birthday.",
-    "answerHash": "a7e8de3bd956c2483f81a367b061973485b76a4b4f4929ed505413c2abfccb6e"
-  },
-  {
-    "id": 47,
-    "title": "Fractured Glass",
-    "text": "If you drop me I'm sure to crack, but give me a smile and I'll always smile back. What am I?",
-    "hint": "You check your reflection in this.",
+    "title": "The Doppelganger",
+    "text": "Look in my face, I am somebody. Look at my back, I am nobody.",
+    "hint": "Reflective glass.",
     "answerHash": "00154761637ca746c354a6d9cfbf1da1a92e79afa6bb127bb8a1c434e9c73170"
   },
   {
+    "id": 44,
+    "title": "Breach of Trust",
+    "text": "What is the only thing you can break before you even touch it?",
+    "hint": "I swear I will do it.",
+    "answerHash": "3513d9452af7c1768eeba7e47bdd0920aeb18360dc15a1a7759fc0f0e4f3ca02"
+  },
+  {
+    "id": 45,
+    "title": "Cryptic Nature",
+    "text": "I can be cracked, I can be made, I can be told, I can be played.",
+    "hint": "A secret language.",
+    "answerHash": "5694d08a2e53ffcae0c3103e5ad6f6076abd960eb1f8a56577040bc1028f702b"
+  },
+  {
+    "id": 46,
+    "title": "The Oath",
+    "text": "I have no voice, but I can teach you all there is to know. I have leaves, but I am not a tree.",
+    "hint": "You read it.",
+    "answerHash": "92719fe0cf8cd51592af31ee8a5736d79f7273777fa3f7b70bfe993a4cd32180"
+  },
+  {
+    "id": 47,
+    "title": "Thermal Dynamics",
+    "text": "What runs around the whole yard without moving?",
+    "hint": "It marks the property line.",
+    "answerHash": "87346eb282352fda74addd2a9882fb0cf557366044f1fb56579cdaf24bcc33b6"
+  },
+  {
     "id": 48,
-    "title": "The Step Cipher",
-    "text": "Complete the alphabetical jump sequence:\n\nA, C, E, G, I, _",
-    "hint": "Skip every other letter.",
-    "answerHash": "8254c329a92850f6d539dd376f4816ee2764517da5e0235514af433164480d7a"
+    "title": "Solid State",
+    "text": "I am water, but if you put me in water, I will float.",
+    "hint": "Frozen.",
+    "answerHash": "4cb0b250c6250d528f3e61d07d970892168db68bbff1ea5be4a851eda411adfb"
   },
   {
     "id": 49,
-    "title": "Liquid Asset",
-    "text": "I can be full, but I never overflow. I can be empty, but I never leak. What am I?",
-    "hint": "It's in the night sky.",
-    "answerHash": "9e78b43ea00edcac8299e0cc8df7f6f913078171335f733a21d5d911b6999132"
-  },
-  {
-    "id": 50,
-    "title": "The Final Echo",
-    "text": "What word is spelled incorrectly in every single dictionary?",
-    "hint": "Look at the word itself.",
-    "answerHash": "38b9ab80aeb546194eb90135096146e23ca3f9590fc8ff599fd074603f82d884"
-  },
-  {
-    "id": 51,
-    "title": "Operation Square",
-    "text": "Bypass the numeric lock sequence:\n\n1, 4, 9, 16, 25, 36, _",
-    "hint": "Multiply numbers by themselves.",
-    "answerHash": "0e17daca5f3e175f448bacace3bc0da47d0655a74c8dd0dc497a3afbdad95f1f"
-  },
-  {
-    "id": 52,
-    "title": "The Empty Drop",
-    "text": "I have keys but no locks. I have space but no room. You can enter but not go outside. What am I?",
-    "hint": "You are probably looking at one right now.",
-    "answerHash": "91f060a9ad4b39eb228d9537292fab19d252faed06c169d0fdcb4a90560f5676"
-  },
-  {
-    "id": 53,
-    "title": "Target Profile",
-    "text": "The target was born in 1980. He is alive and well today, but he just celebrated his 11th birthday. How?",
-    "hint": "February 29th.",
-    "answerHash": "778b0912ea99fa879924c4f5d19f2fb0c096819891df9b5970b8191d902b5488"
-  },
-  {
-    "id": 54,
-    "title": "Safe House Design",
-    "text": "The safe house is a one-story bungalow. Everything is painted grey. Grey walls, grey doors, grey furniture. What color are the stairs?",
-    "hint": "Read the first sentence of the briefing again.",
-    "answerHash": "336d7beb5c4e5cdc602cf49cb5db0de80e4dfbd985b632310e1fa357ecf62b39"
-  },
-  {
-    "id": 55,
-    "title": "Asset Pursuit",
-    "text": "You are in a foot chase. You overtake the operative in second place. What position are you in now?",
-    "hint": "You took their spot, not the leader's spot.",
-    "answerHash": "16367aacb67a4a017c8da8ab95682ccb390863780f7114dda0a0e0c55644c7c4"
-  },
-  {
-    "id": 56,
-    "title": "Thermal Scan",
-    "text": "Which crate is heavier for the transport chopper: a ton of gold bars or a ton of feathers?",
-    "hint": "Look at the weights, not the materials.",
-    "answerHash": "0967115f2813a3541eaef77de9d9d5773f1c0c04314b0bbfe4ff3b3b1c55b5d5"
-  },
-  {
-    "id": 57,
-    "title": "Decryption Key 7",
-    "text": "If you drop a classified dossier in the Red Sea, what does it become?",
-    "hint": "Physics applies to everything.",
-    "answerHash": "534c51e17770c9b7a5aa186bec09fd9470653e25f39651277bcc2fb1f620acd0"
-  },
-  {
-    "id": 58,
-    "title": "Night Optics",
-    "text": "What has many teeth but cannot bite?",
-    "hint": "It is used for grooming.",
-    "answerHash": "ef4e3f50798387464764d41308391dedf25280c5dd34b87d233017428c278ee2"
-  },
-  {
-    "id": 59,
-    "title": "The Interrogation",
-    "text": "I am tall when I'm young, and I'm short when I'm old. What am I?",
-    "hint": "I provide light and melt.",
+    "title": "Lifespan",
+    "text": "I am tall when I am young, and I am short when I am old.",
+    "hint": "Made of wax.",
     "answerHash": "6fa599fe7b02fec029e98dfa0f64c6ec946cc0ebc57916355dcaaf27bcac5a16"
   },
   {
+    "id": 50,
+    "title": "Night Ops",
+    "text": "We come out at night without being called, and are lost in the day without being stolen.",
+    "hint": "Look up at the sky.",
+    "answerHash": "b2547aa06de503c7bd16e63ef3483e826622672c0d05ca0a75dd997e14df1303"
+  },
+  {
+    "id": 51,
+    "title": "Shift Protocol",
+    "text": "Decrypt this simple forward shift cipher (ROT-1):\n\nC B T F",
+    "hint": "Move each letter backward by exactly one space in the alphabet.",
+    "answerHash": "cae662172fd450bb0cd710a769079c05bfc5d8e35efa6576edc7d0377afdd4a2"
+  },
+  {
+    "id": 52,
+    "title": "Anatomy of Glass",
+    "text": "I have a neck but no head, and I wear a cap.",
+    "hint": "You drink out of this.",
+    "answerHash": "7def9c79e5be6d7a70022168b8b099ce1e707a2fd809a60fab73de6de578884b"
+  },
+  {
+    "id": 53,
+    "title": "Skyfall",
+    "text": "I fly without wings, I cry without eyes. Wherever I go, darkness follows me.",
+    "hint": "Look up in the sky right before a storm.",
+    "answerHash": "56681010b753e1abe52c449d0aab291b28f1808a3a91b6baeaa726883baad4b0"
+  },
+  {
+    "id": 54,
+    "title": "Distress Signal",
+    "text": "Decrypt the Morse code:\n\n. . .  _ _ _  . . .",
+    "hint": "The universal distress signal.",
+    "answerHash": "c0946106b732f9f6ae889101ab987ed1bbcfe3eda2ad0a971be31575ad676851"
+  },
+  {
+    "id": 55,
+    "title": "Mathematical Paradox",
+    "text": "I am an odd number. Take away a single letter and I become even.",
+    "hint": "Spell out the numbers between 1 and 10.",
+    "answerHash": "3ba8d02b16fd2a01c1a8ba1a1f036d7ce386ed953696fa57331c2ac48a80b255"
+  },
+  {
+    "id": 56,
+    "title": "Silent Guard",
+    "text": "What has a bark, but no bite?",
+    "hint": "It has leaves.",
+    "answerHash": "dc9c5edb8b2d479e697b4b0b8ab874f32b325138598ce9e7b759eb8292110622"
+  },
+  {
+    "id": 57,
+    "title": "The Path",
+    "text": "What goes through cities and fields, but never moves?",
+    "hint": "You drive your car on it.",
+    "answerHash": "362a284952d3a7250e4bdd72a659ea78e8ec79804e0e6a2053dfe4c10e7d79f1"
+  },
+  {
+    "id": 58,
+    "title": "Retrograde Cipher",
+    "text": "E V I L O",
+    "hint": "Read the text in reverse.",
+    "answerHash": "fa6598317163f260c9f3bb0959f80974868eb5ff3f6bf80a092f54e042071aa2"
+  },
+  {
+    "id": 59,
+    "title": "Locked Out",
+    "text": "I am full of keys but I can't open a single door.",
+    "hint": "You play music on it.",
+    "answerHash": "1d78e018e405ef26b7f7581336a2a4c556c3783eaa763978cbd7d2ddd0adb3ad"
+  },
+  {
     "id": 60,
-    "title": "Secure Perimeter",
+    "title": "Lifeless Hand",
+    "text": "What has a thumb and four fingers, but is not alive?",
+    "hint": "You wear it to keep warm in winter.",
+    "answerHash": "4bc529d33e80672d2c818851c8974428eddab767b45ce0e948d36e93218ed45d"
+  },
+  {
+    "id": 61,
+    "title": "Destructive Entry",
     "text": "What has to be broken before you can use it?",
     "hint": "A classic breakfast food.",
     "answerHash": "34707c3f40dfa20c3902b807b627d420d6d474d9d98066ba637953d1cfd6b914"
   },
   {
-    "id": 61,
-    "title": "The Alibi",
-    "text": "A target pushes his car to a hotel and tells the owner he's bankrupt. Why?",
-    "hint": "It's a very famous board game.",
-    "answerHash": "cb3b5639a043f55b783e3f8fc58a2f6252db89b390a27c67ba199b6a897d0e30"
-  },
-  {
     "id": 62,
-    "title": "Missing Intel",
-    "text": "What is full of holes but still holds water?",
-    "hint": "It's used for cleaning dishes.",
-    "answerHash": "46248ac689828800502186d8753cc5717c5c2b47712e8158705a510dc892f00b"
+    "title": "Temporal Anomaly",
+    "text": "What month of the year has 28 days?",
+    "hint": "Think laterally. February isn't the only one.",
+    "answerHash": "5ef5ef0364b6939c4ca61f34b393f7b368d1be8619647aaf83d5b395919ab629"
   },
   {
     "id": 63,
-    "title": "Classified Document",
-    "text": "I shave every single day, but my beard stays exactly the same. What am I?",
-    "hint": "It is my profession.",
-    "answerHash": "b67b8e2e8472a0a87a3d64d75995193c1da90bf098123586ceba69881880fbb1"
+    "title": "The Unseen",
+    "text": "What is always in front of you but can’t be seen?",
+    "hint": "Tomorrow, next week, next year...",
+    "answerHash": "ebb3de8a3d9a40366132eb5deb5af44e4c96c11696f8fc34ea2c1d8bd8399171"
   },
   {
     "id": 64,
-    "title": "The Blackout",
-    "text": "What gets wetter the more it dries?",
-    "hint": "You use it after a shower.",
-    "answerHash": "10ca50a8a7148afd6d2a563e8ef8e05cfedd17fc97a6a5327cf9e5300b933e4b"
+    "title": "Acrostic Intercept",
+    "text": "Hidden Inside Normal Text.",
+    "hint": "Extract the first letter of each word.",
+    "answerHash": "b80e0af617d0f8ff54ab3142c34c76e83eafe75c6b2cbe87a44c56bb8505dd01"
   },
   {
     "id": 65,
-    "title": "Evacuation Route",
-    "text": "Some months have 31 days. How many have 28?",
-    "hint": "Every single one of them.",
-    "answerHash": "d1a749ad879b6c07e1f356b260ba81f9cb5b4376072280c9994a5c125165b701"
+    "title": "Aerodynamics",
+    "text": "I am easy to lift, but hard to throw.",
+    "hint": "A bird's covering.",
+    "answerHash": "b52115ea553c55b7f70ceb81a97870163e02cb159d7d4717abb82d4e606e2465"
   },
   {
     "id": 66,
-    "title": "The Shadow",
-    "text": "Only one color, but not one size. Stuck at the bottom, yet easily flies. Present in sun, but not in rain.",
-    "hint": "Look behind you on a sunny day.",
-    "answerHash": "0bb09d80600eec3eb9d7793a6f859bedde2a2d83899b70bd78e961ed674b32f4"
+    "title": "Inverse Anatomy",
+    "text": "What has a bottom at the top?",
+    "hint": "Your body parts.",
+    "answerHash": "14e32f3cbdd3b4c414be5f81c8c6b602bc9e814c0cad7290a07fe109ea9830a7"
   },
   {
     "id": 67,
-    "title": "The Asset's Secret",
-    "text": "Feed me and I live, yet give me a drink and I die. What am I?",
-    "hint": "Requires oxygen and fuel to survive.",
-    "answerHash": "dc9f28b12dd1818ee42ffc92ecb940386214598837348d30d3c6c0b7b57e34c9"
+    "title": "Toothless",
+    "text": "What has many teeth, but cannot bite?",
+    "hint": "You use it on your hair.",
+    "answerHash": "ef4e3f50798387464764d41308391dedf25280c5dd34b87d233017428c278ee2"
   },
   {
     "id": 68,
-    "title": "Intercept 008",
-    "text": "What can you catch from a suspect but not throw?",
-    "hint": "Ah-choo.",
-    "answerHash": "e272deecde720ffc773d7a6a81adabbc366ccbb64da5abdb6b26f52cd3f952cb"
-  },
-  {
-    "id": 69,
-    "title": "Cipher Delta",
-    "text": "Complete the alphabetic jump sequence:\n\nA, B, D, G, K, _",
-    "hint": "The gap increases by 1 each time.",
-    "answerHash": "148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940"
-  },
-  {
-    "id": 70,
-    "title": "The Courier",
-    "text": "I have four legs but cannot walk.",
+    "title": "Static Movement",
+    "text": "What has four legs, but can't walk?",
     "hint": "You eat dinner on it.",
     "answerHash": "0d4fc4a78d3706edccafb665a8b2fdd9309e82c78625bb0f2b8e7bb9e1c4d21c"
   },
   {
+    "id": 69,
+    "title": "A1Z26 Protocol",
+    "text": "Decrypt the numeric substitution cipher (A=1, B=2):\n\n20 1 18 7 5 20",
+    "hint": "The objective of a mission.",
+    "answerHash": "34a04005bcaf206eec990bd9637d9fdb6725e0a0c0d4aebf003f17f4c956eb5c"
+  },
+  {
+    "id": 70,
+    "title": "Liquid Linguistics",
+    "text": "Which letter of the alphabet contains the most water?",
+    "hint": "Say the letters out loud. Which one sounds like the ocean?",
+    "answerHash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6"
+  },
+  {
     "id": 71,
-    "title": "Vowel Check",
-    "text": "What single word contains all twenty-six letters?",
-    "hint": "Read the question very literally.",
-    "answerHash": "4dd4f3835505cd95950fc062a9b9418958b2d820eb07ef5d545f7c99de091e3b"
+    "title": "The Great Collection",
+    "text": "What starts with a P, ends with an E, and has thousands of letters?",
+    "hint": "Where you go to mail a package.",
+    "answerHash": "8328e880c8ba99deca5ebe0486402617fd4ac89abf2ea6a47a70694af48c7d5c"
   },
   {
     "id": 72,
-    "title": "Numeric Drop",
-    "text": "If an operative, his sister, and their dog weren't under an umbrella, why didn't they get wet?",
-    "hint": "Check the weather report.",
-    "answerHash": "011346b35fd39adee2f6add6a6ea224c5a06aa078dfac00d99bc95ad0dfc5c66"
+    "title": "Brewing Paradox",
+    "text": "What begins with T, ends with T, and has T in it?",
+    "hint": "A hot beverage container.",
+    "answerHash": "33f38545e00a507fba8be0243f5d19ee24dac952e6664422f91c32df2c63ff0b"
   },
   {
     "id": 73,
-    "title": "Audio Bug",
+    "title": "Elevation",
     "text": "What goes up and down but doesn't move?",
-    "hint": "It connects two floors of a building.",
+    "hint": "Leads to the second floor.",
     "answerHash": "0eeea780b063634befb947bc6800a8caddfd18270140d4bdad037f50d72130fb"
   },
   {
     "id": 74,
-    "title": "The Dead Drop",
-    "text": "I have a neck but no head, and I wear a cap. What am I?",
-    "hint": "Used to hold liquids.",
-    "answerHash": "7def9c79e5be6d7a70022168b8b099ce1e707a2fd809a60fab73de6de578884b"
+    "title": "Structural Deficit",
+    "text": "What kind of room has no doors or windows?",
+    "hint": "It is a type of fungus.",
+    "answerHash": "5ef2c394d5b63e4175cd331c74c8453c3e36eb8f47f6d648397ff6c1314fd705"
   },
   {
     "id": 75,
-    "title": "Location Ping",
-    "text": "What can you break, even if you never pick it up or touch it?",
-    "hint": "You make this when you swear to do something.",
-    "answerHash": "3513d9452af7c1768eeba7e47bdd0920aeb18360dc15a1a7759fc0f0e4f3ca02"
+    "title": "Grammatical Error",
+    "text": "What word is spelled wrong in every single dictionary?",
+    "hint": "Literally the word itself.",
+    "answerHash": "8810ad581e59f2bc3928b261707a71308f7e139eb04820366dc4d5c18d980225"
   },
   {
     "id": 76,
-    "title": "Covert Comm",
-    "text": "What word is pronounced exactly the same if you take away four of its five letters?",
-    "hint": "A line of people waiting.",
-    "answerHash": "00b109cf1123a591253cc534b17e5268eb8fc2fbb7d6772de7a55c135ef1282f"
+    "title": "Phonetic Intercept II",
+    "text": "Delta - Echo - Sierra - Kilo",
+    "hint": "Extract the primary identifier (the first letter) of each word.",
+    "answerHash": "49be417ad74080a0031b636b44cfc26fdd0065492d6cd3b033960c4414955cf7"
   },
   {
     "id": 77,
-    "title": "Safe Lock",
-    "text": "The more you take, the more you leave behind.",
-    "hint": "Walking in the snow.",
-    "answerHash": "1a11a5a27be607e96d0205aa1304d7f39c97416ab35892049129d3f6eafa90fb"
+    "title": "Silent Symphony",
+    "text": "What kind of band never plays music?",
+    "hint": "It is made of elastic.",
+    "answerHash": "4abefcef30968adbe704a6c6a52bc98c66c523b9d75febdd517fc9fc40c2f665"
   },
   {
     "id": 78,
-    "title": "Intel Drop",
-    "text": "What has hands but cannot clap?",
-    "hint": "It tells you when the deadline is.",
-    "answerHash": "d8198efa3604d164853468608c55efa148bc56e3564d5a30232bf98b8ab43aeb"
+    "title": "Feline Logic",
+    "text": "I have a head like a cat. I have feet like a cat. But I am not a cat. What am I?",
+    "hint": "The cat's offspring.",
+    "answerHash": "58972659401cbee9ac0c6f92382c5cabc26bc5ea44ab8902b68c4363672fafb9"
   },
   {
     "id": 79,
-    "title": "Sector Sweep",
-    "text": "What has a thumb and four fingers, but is not alive?",
-    "hint": "It keeps your hand warm in winter.",
-    "answerHash": "4bc529d33e80672d2c818851c8974428eddab767b45ce0e948d36e93218ed45d"
+    "title": "Chemical Defense",
+    "text": "Take off my skin and I won't cry, but you will!",
+    "hint": "It has layers.",
+    "answerHash": "288971671685b8da56623362c82e1ead68186c5150a35e3b35b5ef74cd7ceebc"
   },
   {
     "id": 80,
-    "title": "The Double Agent",
-    "text": "If you have me, you want to share me. If you share me, you haven't got me. What am I?",
-    "hint": "A classified piece of intel.",
-    "answerHash": "2bb80d537b1da3e38bd30361aa855686bde0eacd7162fef6a25fe97bf527a25b"
+    "title": "Shift Cipher Beta",
+    "text": "Decrypt this shift cipher (ROT-1):\n\nB Q Q M F",
+    "hint": "Move each letter backward by one space in the alphabet.",
+    "answerHash": "3a7bd3e2360a3d29eea436fcfb7e44c735d117c42d1c1835420b6b9942dd4f1b"
   },
   {
     "id": 81,
-    "title": "Briefcase Lock",
-    "text": "What has words, but never speaks?",
-    "hint": "You read it.",
-    "answerHash": "92719fe0cf8cd51592af31ee8a5736d79f7273777fa3f7b70bfe993a4cd32180"
-  },
-  {
-    "id": 82,
-    "title": "Observation Post",
-    "text": "What runs all around a backyard, yet never moves?",
-    "hint": "It marks the property line.",
-    "answerHash": "87346eb282352fda74addd2a9882fb0cf557366044f1fb56579cdaf24bcc33b6"
-  },
-  {
-    "id": 83,
-    "title": "The Sleeper",
-    "text": "What building has the most stories?",
-    "hint": "It contains thousands of books.",
-    "answerHash": "b718f1354f7247312eca086d9a024afe5fa717ddea5adeddd6f12bcf945b2e8c"
-  },
-  {
-    "id": 84,
-    "title": "Secure Line",
-    "text": "What is always in front of you but can't be seen?",
-    "hint": "Tomorrow.",
-    "answerHash": "ebb3de8a3d9a40366132eb5deb5af44e4c96c11696f8fc34ea2c1d8bd8399171"
-  },
-  {
-    "id": 85,
-    "title": "Contraband",
-    "text": "What can you hold in your right hand, but never in your left hand?",
-    "hint": "Look at your own arms.",
-    "answerHash": "f80f45e6f510ca273fa5172d807dc3db9f37277a7c2f819da0896a05df9ea98b"
-  },
-  {
-    "id": 86,
-    "title": "Night Watch",
+    "title": "Mental Edge",
     "text": "What gets sharper the more you use it?",
     "hint": "The organ inside your skull.",
     "answerHash": "bbbf7a6412d6d3e8244ac1fda5e35a20037acee661288cb95b7b18cf469980aa"
   },
   {
-    "id": 87,
-    "title": "The Global Asset",
-    "text": "What travels around the world but stays in one spot?",
-    "hint": "Placed on an envelope.",
-    "answerHash": "e0afcdbf6ad4adf566c572d7f7c34d4dfb85e5122bba750d6a3a5842f915d39b"
+    "id": 82,
+    "title": "Triple Threat",
+    "text": "I am a bird, a person, and a fruit.",
+    "hint": "Found in New Zealand.",
+    "answerHash": "1a5afeda973d776e31d1d7266f184468f84d99bed311d88d3dcb67015934f9f9"
   },
   {
-    "id": 88,
-    "title": "Undercover",
-    "text": "I have no life, but I can die. What am I?",
-    "hint": "Powers your electronics.",
-    "answerHash": "f3d1701e1d575e1294786989517866986bc97343e07af63e201f46ba0be5806a"
-  },
-  {
-    "id": 89,
-    "title": "The Intercepted Package",
-    "text": "What is easy to get into, but hard to get out of?",
-    "hint": "When you get caught breaking the rules.",
-    "answerHash": "7130df43355ec25b38bac55351d4bdf2c965da2847b8824b5e7760adb7ef7cd1"
-  },
-  {
-    "id": 90,
-    "title": "Time Dilation",
-    "text": "There is a word that becomes shorter when you add two letters to it. What is the word?",
-    "hint": "Look at the word 'short'.",
-    "answerHash": "f9b0078b5df596d2ea19010c001bbd009e651de2c57e8fb7e355f31eb9d3f739"
-  },
-  {
-    "id": 91,
-    "title": "Cryptic Exchange",
-    "text": "What disappears as soon as you say its name?",
-    "hint": "Quiet.",
-    "answerHash": "e6c18fdbe59783dfefef3595cd288bcb7ce912d36854b5e8faaef31235d9031b"
-  },
-  {
-    "id": 92,
-    "title": "The Traitor's Riddle",
-    "text": "The person who makes it doesn't need it. The person who buys it doesn't use it. The person who uses it can't see it.",
-    "hint": "Buried six feet under.",
-    "answerHash": "e22665cad68137f2ddcd46eb4751820ac64ebb68669212351c6d7193288e7f63"
-  },
-  {
-    "id": 93,
-    "title": "Grid Square",
-    "text": "What has a bottom at the top?",
-    "hint": "Attached to your foot.",
-    "answerHash": "c7c8fc91abb8ed76c29a883381b92612dcd8235d6e7ddca8d81f6e87d5fab417"
-  },
-  {
-    "id": 94,
-    "title": "Operation Alpha",
-    "text": "My first two letters signify a male, my first three signify a female, my first four signify a great man, my entire word signifies a great woman.",
-    "hint": "He, Her, Hero...",
+    "id": 83,
+    "title": "Gendered Linguistics",
+    "text": "My first 2 letters signify a male, my first 3 signify a female, my first 4 signify a great man, and my entire word signifies a great woman.",
+    "hint": "HE, HER, HERO...",
     "answerHash": "1d4e4796f6a2a2ab410c89191962e84885b06e9092f78c90589227a4cbde9813"
   },
   {
-    "id": 95,
-    "title": "Pattern Recognition",
-    "text": "Which letter of the alphabet holds the most water?",
-    "hint": "Say the letters out loud.",
-    "answerHash": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6"
+    "id": 84,
+    "title": "Physical Impossibility",
+    "text": "What can you hold in your right hand, but never in your left hand?",
+    "hint": "It is a part of your own body.",
+    "answerHash": "f80f45e6f510ca273fa5172d807dc3db9f37277a7c2f819da0896a05df9ea98b"
   },
   {
-    "id": 96,
-    "title": "Echo Protocol",
-    "text": "What starts with a P, ends with an E, and has thousands of letters?",
-    "hint": "Where mail gets sorted.",
-    "answerHash": "8328e880c8ba99deca5ebe0486402617fd4ac89abf2ea6a47a70694af48c7d5c"
+    "id": 85,
+    "title": "Phonetic Seed",
+    "text": "I am a seed with three letters in my name. Take away the last two and I still sound exactly the same.",
+    "hint": "A small green vegetable.",
+    "answerHash": "6d906f667d80107336485030127c84fca2565c0c1491678b66ab773655b48e36"
   },
   {
-    "id": 97,
-    "title": "Asset Transport",
-    "text": "I have four legs but no feet. I have a beautiful back but no spine.",
-    "hint": "You sit on it.",
-    "answerHash": "3d7eb3d3dab17ee509a6911e0feb928eb46e956adcada792493614bfb97a7a9c"
+    "id": 86,
+    "title": "Accounting Linguistics",
+    "text": "What English word has three consecutive double letters?",
+    "hint": "The profession of tracking financial records.",
+    "answerHash": "5687fc0c84b1cbb0e1bbbacf71830f251f725a5f6c31725a2f3c32a9e590b015"
   },
   {
-    "id": 98,
-    "title": "The Mole",
-    "text": "What starts with a T, ends with a T, and has T in it?",
-    "hint": "A vessel for a hot British drink.",
-    "answerHash": "33f38545e00a507fba8be0243f5d19ee24dac952e6664422f91c32df2c63ff0b"
+    "id": 87,
+    "title": "Color Changing Asset",
+    "text": "I am black when you buy me, red when you use me, and gray when you throw me away.",
+    "hint": "Used for grilling food outdoors.",
+    "answerHash": "a5b3f5001e39b1418908fb096d1bc120e8d8dc5c3d8e741d69d0bbdfd1f7fd9d"
   },
   {
-    "id": 99,
-    "title": "Radio Frequency",
-    "text": "I am a word of letters three, add two and fewer there will be. What am I?",
-    "hint": "Look at the word 'few'.",
+    "id": 88,
+    "title": "Atbash Protocol II",
+    "text": "Decrypt the Atbash cipher (A=Z, B=Y, C=X):\n\nN R H H R L M",
+    "hint": "Reverse the alphabet. N becomes M, R becomes I...",
+    "answerHash": "ceb00a91525da64fb171b103ae30ef3b817fa3bc78ecde99b884eedbe9131003"
+  },
+  {
+    "id": 89,
+    "title": "High Rise",
+    "text": "What building has the most stories?",
+    "hint": "It is filled with books.",
+    "answerHash": "b718f1354f7247312eca086d9a024afe5fa717ddea5adeddd6f12bcf945b2e8c"
+  },
+  {
+    "id": 90,
+    "title": "Subtraction Addition",
+    "text": "I am a word of letters three, add two and fewer there will be.",
+    "hint": "The word is a synonym for 'not many'.",
     "answerHash": "fa95e5080882f52bd40ccab2dee9c88c4d1fad7ad1093f93a0edcd8fb42d2bee"
   },
   {
+    "id": 91,
+    "title": "Facial Consistency",
+    "text": "I shave every day, but my beard stays exactly the same. What am I?",
+    "hint": "It is my profession to cut hair.",
+    "answerHash": "b67b8e2e8472a0a87a3d64d75995193c1da90bf098123586ceba69881880fbb1"
+  },
+  {
+    "id": 92,
+    "title": "The Trap",
+    "text": "What is easy to get into, but incredibly hard to get out of?",
+    "hint": "When you make a mistake, you are in...",
+    "answerHash": "7130df43355ec25b38bac55351d4bdf2c965da2847b8824b5e7760adb7ef7cd1"
+  },
+  {
+    "id": 93,
+    "title": "Acrostic Intercept II",
+    "text": "Pigs Oink Ultimately Nearing Dirt",
+    "hint": "Extract the first letter of each word.",
+    "answerHash": "39d77c4bd9a79b5db22c128a0a8fa9ef1ca5a4f2dada7b99db1fd9d587ffe6e2"
+  },
+  {
+    "id": 94,
+    "title": "Invisible Volume",
+    "text": "What can fill an entire room but takes up absolutely zero space?",
+    "hint": "Turn on the lamp.",
+    "answerHash": "99a7026172d42714d0293e5598ec1c8e8260d7d0c4b8582ad002c1883494e216"
+  },
+  {
+    "id": 95,
+    "title": "Explosive Transformation",
+    "text": "I make a loud sound when I change from my hard shell to a fluffy white coat.",
+    "hint": "Eaten at the movie theater.",
+    "answerHash": "0a4ef253e3fef22cb9d3bc5280386f9f2d1cf351da6582d8254659d1b27ea0b3"
+  },
+  {
+    "id": 96,
+    "title": "Cardiac Anomaly",
+    "text": "What has 13 hearts, but no other organs?",
+    "hint": "Used for playing poker.",
+    "answerHash": "d830325906c3d540ae219e6aba0f243d52cd708feea68355a3f63f76aff8da33"
+  },
+  {
+    "id": 97,
+    "title": "Numerical Linguistics",
+    "text": "A word I know, six letters it contains, remove one letter and 12 remains.",
+    "hint": "The word is a synonym for groups of twelve.",
+    "answerHash": "219d9757b9f4c227b66e75e28922fb5e945af0b043260bcdced849e43b584905"
+  },
+  {
+    "id": 98,
+    "title": "ROT-13 Protocol",
+    "text": "Decrypt the ROT-13 cipher (shift forward by 13 letters):\n\nU R Y Y B",
+    "hint": "A standard greeting.",
+    "answerHash": "2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824"
+  },
+  {
+    "id": 99,
+    "title": "Protective Coating",
+    "text": "What kind of coat is best put on while it's wet?",
+    "hint": "You use a brush or a roller to apply it to a wall.",
+    "answerHash": "297e619db5ee855a68d5c326ef45d2e5dcceb9b448b647fd3d87cac8109e9b11"
+  },
+  {
     "id": 100,
-    "title": "The Final Vault",
-    "text": "You see a boat filled with people. It has not sunk, but when you look again you don't see a single person on the boat. Why?",
-    "hint": "They all had spouses.",
-    "answerHash": "f9ce3beb80492facbec3586308e6590ef4b543c570a119d1e9b575f3b12ce197"
-  },
-  {
-    "id": 101,
-    "title": "Exponential Drop",
-    "text": "Decrypt the numerical sequence left at the drop site:\n\n2, 4, 8, 16, 32, _",
-    "hint": "Double the previous number.",
-    "answerHash": "a68b412c4282555f15546cf6e1fc42893b7e07f271557ceb021821098dd66c1b"
-  },
-  {
-    "id": 102,
-    "title": "The Cubic Lock",
-    "text": "The safe dial follows a strict cubic pattern. What is the next passcode?\n\n1, 8, 27, 64, 125, _",
-    "hint": "1x1x1, 2x2x2, 3x3x3...",
-    "answerHash": "0f4121d0ef1df4c86854c7ebb47ae1c93de8aec8f944035eeaa6495dd71a0678"
-  },
-  {
-    "id": 103,
-    "title": "Grid Protocol 96",
-    "text": "Calculate the missing transmission frequency:\n\n3, 6, 12, 24, 48, _",
-    "hint": "Multiply by two.",
-    "answerHash": "7b1a278f5abe8e9da907fc9c29dfd432d60dc76e17b0fabab659d2a508bc65c4"
-  },
-  {
-    "id": 104,
-    "title": "Descending Steps",
-    "text": "The firewall ports are closing in a cascading sequence:\n\n100, 99, 96, 91, 84, 75, _",
-    "hint": "Subtract 1, then subtract 3, then subtract 5...",
-    "answerHash": "a68b412c4282555f15546cf6e1fc42893b7e07f271557ceb021821098dd66c1b"
-  },
-  {
-    "id": 105,
-    "title": "Ascension Protocol",
-    "text": "To open the blast doors, enter the next number in the chain:\n\n2, 3, 5, 8, 12, 17, _",
-    "hint": "Add 1, then add 2, then add 3...",
-    "answerHash": "535fa30d7e25dd8a49f1536779734ec8286108d115da5045d77f3b4185d8f790"
-  },
-  {
-    "id": 106,
-    "title": "Echo Progression",
-    "text": "The radar ping is bouncing back at expanding intervals:\n\n5, 10, 20, 40, 80, _",
-    "hint": "Double the value.",
-    "answerHash": "a512db2741cd20693e4b16f19891e72b9ff12cead72761fc5e92d2aaf34740c1"
-  },
-  {
-    "id": 107,
-    "title": "Twin Digits",
-    "text": "A covert beacon is broadcasting this repetitive sequence:\n\n11, 22, 33, 44, 55, _",
-    "hint": "Add 11.",
-    "answerHash": "3ada92f28b4ceda38562ebf047c6ff05400d4c572352a1142eedfef67d21e662"
-  },
-  {
-    "id": 108,
-    "title": "Magnification Code",
-    "text": "The target's bank account transfers are growing by a factor of ten:\n\n10, 100, 1000, 10000, _",
-    "hint": "Add another zero.",
-    "answerHash": "3bb78535cc9555ff19fe3556aaa41c78a0a45c64d49ba2bc564507648a8e77a1"
-  },
-  {
-    "id": 109,
-    "title": "Factorial Breach",
-    "text": "Bypass the mainframe using this escalating multiplication sequence:\n\n1, 2, 6, 24, 120, _",
-    "hint": "Multiply by 2, then by 3, then by 4, then by 5...",
-    "answerHash": "d829857eb1366e70be857a69886d1555af0d32681beab068afb93492c2e2b843"
-  },
-  {
-    "id": 110,
-    "title": "Countdown Timer",
-    "text": "The explosive timer is counting down irregularly:\n\n21, 20, 18, 15, 11, _",
-    "hint": "Subtract 1, then 2, then 3, then 4...",
-    "answerHash": "e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683"
-  },
-  {
-    "id": 111,
-    "title": "Alias Anagram 01",
-    "text": "Agent, unscramble the target's alias to reveal their location:\n\nD O R M I T O R Y",
-    "hint": "It's an anagram for a messy place to sleep.",
-    "answerHash": "fb592ad12df46b546d8bba8efaaebce2c86db145a896c554deaf232f1c3743e0"
-  },
-  {
-    "id": 112,
-    "title": "Alias Anagram 02",
-    "text": "Unscramble this directive to find out what the operative was instructed to be:\n\nL I S T E N",
-    "hint": "An anagram meaning 'making no noise'.",
-    "answerHash": "5a9b9fc8e986cc2fc9439778b39f965ea4b55fa030548123d951986d386d4c70"
-  },
-  {
-    "id": 113,
-    "title": "Alias Anagram 03",
-    "text": "The suspect claims to be an ASTRONOMER. What is their true identity?",
-    "hint": "An anagram for someone who looks at the night sky.",
-    "answerHash": "cd6bd3e6773fedf701c457033dcf8d3949de0b44845fdb1c277c1d546857337e"
-  },
-  {
-    "id": 114,
-    "title": "Alias Anagram 04",
-    "text": "The surveillance team reported: THE EYES. What are they doing?",
-    "hint": "An anagram describing vision.",
-    "answerHash": "923b85329e312f9d958dd2961e1cb0476610ce9dbdfd871243dab5c9ccd9aac4"
-  },
-  {
-    "id": 115,
-    "title": "Alias Anagram 05",
-    "text": "The asset disguised himself as A GENTLEMAN. Unscramble to reveal his style.",
-    "hint": "An anagram meaning 'well-dressed'.",
-    "answerHash": "f6fc6a1d04b899608966b3dcc0518721910faa11f9415746f27a36135e0aa473"
-  },
-  {
-    "id": 116,
-    "title": "Alias Anagram 06",
-    "text": "The meeting place is a FUNERAL. Unscramble the word to find the irony.",
-    "hint": "An anagram meaning 'a very good time'.",
-    "answerHash": "68db2f6abfc5c9048646ad5a98b30d8bd81e133125d4b99198b2e0fd5c7be559"
-  },
-  {
-    "id": 117,
-    "title": "Alias Anagram 07",
-    "text": "The transmission arrived in THE MORSE CODE. What did the receiver say?",
-    "hint": "An anagram pointing out the incoming transmission.",
-    "answerHash": "6688ea29da64854aeb5f7de88ad0856b23256b55ddf508fdd2a93f3604653a8f"
-  },
-  {
-    "id": 118,
-    "title": "Alias Anagram 08",
-    "text": "The equation left on the blackboard was ELEVEN PLUS TWO. Unscramble it to find the other equation.",
-    "hint": "It equals 13.",
-    "answerHash": "e978487179cfff714e3f22875f568c5ba689d4100e1f811db5f45196c9f05531"
-  },
-  {
-    "id": 119,
-    "title": "Alias Anagram 09",
-    "text": "The target was last seen near the SLOT MACHINES. Unscramble to find out what happened to his funds.",
-    "hint": "An anagram meaning 'my money is gone'.",
-    "answerHash": "8aec481ca146ca3bc3ba155b7be405beed62d57bdb4452dd2b55d9e41989225c"
-  },
-  {
-    "id": 120,
-    "title": "Alias Anagram 10",
-    "text": "The guard ignored the SNOOZE ALARMS. Unscramble to find out what happened to his sleep.",
-    "hint": "An anagram meaning 'no more resting'.",
-    "answerHash": "3e15947af5023e000d950c0b9c0cff37ea75e1bbe5ebc78a382600943ed04178"
-  },
-  {
-    "id": 121,
-    "title": "Alpha-Numeric Code 01",
-    "text": "Decrypt the numeric sequence into a five-letter word using A=1, B=2, C=3...\n\n2, 18, 1, 22, 15",
-    "hint": "A phonetic alphabet word starting with B.",
-    "answerHash": "f144a6907dc4284d1f9fe6a7d9b9ff53c02c1d07ba68f24d413d7ff7f757a782"
-  },
-  {
-    "id": 122,
-    "title": "Alpha-Numeric Code 02",
-    "text": "Translate the following numerical transmission:\n\n4, 5, 12, 20, 1",
-    "hint": "A phonetic alphabet word starting with D.",
-    "answerHash": "4f4a9410ffcdf895c4adb880659e9b5c0dd1f23a30790684340b3eaacb045398"
-  },
-  {
-    "id": 123,
-    "title": "Alpha-Numeric Code 03",
-    "text": "Translate the following numerical transmission:\n\n5, 3, 8, 15",
-    "hint": "A phonetic alphabet word starting with E.",
-    "answerHash": "092c79e8f80e559e404bcf660c48f3522b67aba9ff1484b0367e1a4ddef7431d"
-  },
-  {
-    "id": 124,
-    "title": "Alpha-Numeric Code 04",
-    "text": "Translate the following numerical transmission:\n\n18, 15, 13, 5, 15",
-    "hint": "A phonetic alphabet word starting with R.",
-    "answerHash": "b88b5eb909d1bd5215ce6dd44e64244afad213dc77b77691cc124a4621b30ebc"
-  },
-  {
-    "id": 125,
-    "title": "Alpha-Numeric Code 05",
-    "text": "Translate the following numerical transmission:\n\n10, 21, 12, 9, 5, 20",
-    "hint": "A phonetic alphabet word starting with J.",
-    "answerHash": "bd862cc1107a5352efbc4f4edc6905607146a1c99f6a39867786e926543c423c"
-  },
-  {
-    "id": 126,
-    "title": "Alpha-Numeric Code 06",
-    "text": "Translate the following numerical transmission:\n\n22, 9, 3, 20, 15, 18",
-    "hint": "A phonetic alphabet word starting with V.",
-    "answerHash": "99bde068af2d49ed7fc8b8fa79abe13a6059e0db320bb73459fd96624bb4b33f"
-  },
-  {
-    "id": 127,
-    "title": "Alpha-Numeric Code 07",
-    "text": "Translate the following numerical transmission:\n\n20, 1, 14, 7, 15",
-    "hint": "A phonetic alphabet word starting with T.",
-    "answerHash": "7063d51d1b2da165eee042de5d33cc27281ea80e1a291488c903b7fb5fc31da7"
-  },
-  {
-    "id": 128,
-    "title": "Alpha-Numeric Code 08",
-    "text": "Translate the following numerical transmission:\n\n19, 9, 5, 18, 18, 1",
-    "hint": "A phonetic alphabet word starting with S.",
-    "answerHash": "dca6ec9510fc0176c600bb5d75a919fba07877c74eb1a41b0530b330c5767648"
-  },
-  {
-    "id": 129,
-    "title": "Alpha-Numeric Code 09",
-    "text": "Translate the following numerical transmission:\n\n14, 15, 22, 5, 13, 2, 5, 18",
-    "hint": "A phonetic alphabet word starting with N.",
-    "answerHash": "b68823eded0bc9c7f3317d601ac24f6ac563895cee8e5a2bd2ca475906fe2615"
-  },
-  {
-    "id": 130,
-    "title": "Alpha-Numeric Code 10",
-    "text": "Translate the following numerical transmission:\n\n15, 19, 3, 1, 18",
-    "hint": "A phonetic alphabet word starting with O.",
-    "answerHash": "f5a1971c2ef02a5ab2263f20895b14e7ac1607d21d28805ca8a7ed31ef802364"
-  },
-  {
-    "id": 131,
-    "title": "QWERTY Shift Right 01",
-    "text": "The operative encrypted their message by typing exactly one key to the RIGHT on a standard QWERTY keyboard. Decrypt this:\n\nW E R",
-    "hint": "Look to the right of W, E, and R.",
-    "answerHash": "abdcb58157a7f3b40a914257be7d618d2fc09630559711b6c71a39d500b8ced2"
-  },
-  {
-    "id": 132,
-    "title": "QWERTY Shift Right 02",
-    "text": "Decrypt the following string by shifting one key to the RIGHT:\n\nA S D",
-    "hint": "Look to the right of A, S, and D.",
-    "answerHash": "18ee24150dcb1d96752a4d6dd0f20dfd8ba8c38527e40aa8509b7adecf78f9c6"
-  },
-  {
-    "id": 133,
-    "title": "QWERTY Shift Right 03",
-    "text": "Decrypt the following string by shifting one key to the RIGHT:\n\nZ X C",
-    "hint": "Look to the right of Z, X, and C.",
-    "answerHash": "f423d3a3a3fda68b283d68797dae19d992127db93b95b184a34a928dc8bb8ac9"
-  },
-  {
-    "id": 134,
-    "title": "QWERTY Shift Right 04",
-    "text": "Decrypt the following string by shifting one key to the RIGHT:\n\nQ A Z",
-    "hint": "Look at the far left column of your keyboard and shift right.",
-    "answerHash": "b4be6ea777b0aa3d0f236138bc3d56562c2153489682b0aee82e2dd8ac51e247"
-  },
-  {
-    "id": 135,
-    "title": "QWERTY Shift Right 05",
-    "text": "Decrypt the following string by shifting one key to the RIGHT:\n\nY U I",
-    "hint": "Look to the right of Y, U, and I.",
-    "answerHash": "95e17a94411dbc199b8ac626d722f42a63d4521f62ddd78bf3dffa615471097b"
-  },
-  {
-    "id": 136,
-    "title": "QWERTY Shift Right 06",
-    "text": "Decrypt the following string by shifting one key to the RIGHT:\n\nH J K",
-    "hint": "Look to the right of H, J, and K.",
-    "answerHash": "268f277c6d766d31334fda0f7a5533a185598d269e61c76a805870244828a5f1"
-  },
-  {
-    "id": 137,
-    "title": "QWERTY Shift Right 07",
-    "text": "Decrypt the following string by shifting one key to the RIGHT:\n\nV B N",
-    "hint": "Look to the right of V, B, and N.",
-    "answerHash": "2818360899bf8caa204c7081ec5e660d13da92cfab22e5b24ff91d58e74f66f1"
-  },
-  {
-    "id": 138,
-    "title": "QWERTY Shift Right 08",
-    "text": "Decrypt the following string by shifting one key to the RIGHT:\n\nE D C",
-    "hint": "Look to the right of E, D, and C.",
-    "answerHash": "dc33f72faa32e87f4a5ada9d1ac4b174afe3a9a0e8a5b5a8a40ed0890d67e39e"
-  },
-  {
-    "id": 139,
-    "title": "QWERTY Shift Right 09",
-    "text": "Decrypt the following string by shifting one key to the RIGHT:\n\nT G B",
-    "hint": "Look to the right of T, G, and B.",
-    "answerHash": "cfa873a35f19a2eab6abf9c12cfc33246490e1557e275c0b193c6c2c44592fb0"
-  },
-  {
-    "id": 140,
-    "title": "QWERTY Shift Right 10",
-    "text": "Decrypt the following string by shifting one key to the RIGHT:\n\nO I U",
-    "hint": "Look to the right of O, I, and U.",
-    "answerHash": "fb07166179b1ce3c49dff4b590c44d66119608be403d9be8c43e7372a997ee75"
-  },
-  {
-    "id": 141,
-    "title": "Compound Link 01",
-    "text": "Agent, find the single word that can be added to the end of all three of these words to create new compound words:\n\nSun, Eye, Shot",
-    "hint": "It breaks easily.",
-    "answerHash": "132a1a391cce181c490a2c4350597221fad9ae207714d1f9a10f67bcb1c8288d"
-  },
-  {
-    "id": 142,
-    "title": "Compound Link 02",
-    "text": "Find the single word that can be added to the end of all three words:\n\nFoot, Base, Snow",
-    "hint": "Used in sports.",
-    "answerHash": "e9de08263f4ad49131d3dd1dc28694d26baa1e9c3033f39a4885d7690b06d5b3"
-  },
-  {
-    "id": 143,
-    "title": "Compound Link 03",
-    "text": "Find the single word that can be added to the end of all three words:\n\nWater, Fall, Bow",
-    "hint": "Precipitation.",
-    "answerHash": "319b44c570a417ff3444896cd4aa77f052b6781773fc2f9aa1f1180ac745005c"
-  },
-  {
-    "id": 144,
-    "title": "Compound Link 04",
-    "text": "Find the single word that can be added to the end of all three words:\n\nLight, Green, Bird",
-    "hint": "A place where people live.",
-    "answerHash": "d6e21286621a8586f7e54720ab5a39c93acc2f4b8fba7a16ec1c24d69a08c613"
-  },
-  {
-    "id": 145,
-    "title": "Compound Link 05",
-    "text": "Find the single word that can be added to the end of all three words:\n\nPan, Cup, Fish",
-    "hint": "A baked dessert.",
-    "answerHash": "32cdb619196200050ab0af581a10fb83cfc63b1a20f58d4bafb6313d55a3f0e9"
-  },
-  {
-    "id": 146,
-    "title": "Compound Link 06",
-    "text": "Find the single word that can be added to the end of all three words:\n\nBlack, White, Key",
-    "hint": "A flat surface or piece of wood.",
-    "answerHash": "859169b38185780daa5497983ff20d2994390058d8a71f2847ac7846f970971e"
-  },
-  {
-    "id": 147,
-    "title": "Compound Link 07",
-    "text": "Find the single word that can be added to the end of all three words:\n\nFire, Water, Wood",
-    "hint": "A target or a stain.",
-    "answerHash": "6201eb4dccc956cc4fa3a78dca0c2888177ec52efd48f125df214f046eb43138"
-  },
-  {
-    "id": 148,
-    "title": "Compound Link 08",
-    "text": "Find the single word that can be added to the end of all three words:\n\nSea, Egg, Nut",
-    "hint": "A hard exterior casing.",
-    "answerHash": "ce635c4eabff5e4f56dba8fb1e39ca235530aa2b6b18533eef1af3862016c577"
-  },
-  {
-    "id": 149,
-    "title": "Compound Link 09",
-    "text": "Find the single word that can be added to the end of all three words:\n\nStar, Jelly, Gold",
-    "hint": "An aquatic animal.",
-    "answerHash": "b474a99a2705e23cf905a484ec6d14ef58b56bbe62e9292783466ec363b5072d"
-  },
-  {
-    "id": 150,
-    "title": "Compound Link 10",
-    "text": "Find the single word that can be added to the end of all three words:\n\nTooth, Hair, Paint",
-    "hint": "Used with bristles.",
-    "answerHash": "029f33c2a6a1143cf125d495f861e073528ebf1e261e88201d0cc58d22d05987"
-  },
-  {
-    "id": 151,
-    "title": "Color Vector",
-    "text": "Complete the primary color sequence to unlock the terminal:\n\nR, Y, _",
-    "hint": "Red, Yellow...",
-    "answerHash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d"
-  },
-  {
-    "id": 152,
-    "title": "Global Coordinates",
-    "text": "The target is visiting continents alphabetically. Where are they heading next?\n\nA, A, A, A, E, N, _",
-    "hint": "Africa, Antarctica, Asia, Australia, Europe, North America...",
-    "answerHash": "043a718774c572bd8a25adbeb1bfcd5c0256ae11cecf9f9c3f925d0e52beaf89"
-  },
-  {
-    "id": 153,
-    "title": "Spectrum Analysis",
-    "text": "The laser grid cycles through the visible light spectrum. What is the final color?\n\nR, O, Y, G, B, I, _",
-    "hint": "Richard Of York Gave Battle In...",
-    "answerHash": "4c94485e0c21ae6c41ce1dfe7b6bfaceea5ab68e40a2476f50208e526f506080"
-  },
-  {
-    "id": 154,
-    "title": "Astrological Cipher",
-    "text": "The cult uses the Zodiac to encode their meeting dates. What comes last?\n\nA, T, G, C, L, V, L, S, S, C, A, _",
-    "hint": "Aries, Taurus, Gemini... the last one represents fish.",
-    "answerHash": "148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940"
-  },
-  {
-    "id": 155,
-    "title": "The Grandmaster",
-    "text": "The Russian defector left this sequence of chess pieces. What is the final missing piece?\n\nK, Q, R, B, K, _",
-    "hint": "King, Queen, Rook, Bishop, Knight...",
-    "answerHash": "148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940"
-  },
-  {
-    "id": 156,
-    "title": "Naval Routes",
-    "text": "The submarine is traversing the five oceans alphabetically. Where does it end?\n\nA, A, I, P, _",
-    "hint": "Arctic, Atlantic, Indian, Pacific...",
-    "answerHash": "043a718774c572bd8a25adbeb1bfcd5c0256ae11cecf9f9c3f925d0e52beaf89"
-  },
-  {
-    "id": 157,
-    "title": "Currency Trace",
-    "text": "The bribe was paid in US coins, ordered by value. What comes next?\n\nP, N, D, Q, H, _",
-    "hint": "Penny, Nickel, Dime, Quarter, Half-Dollar...",
-    "answerHash": "18ac3e7343f016890c510e93f935261169d9e3f565436429830faf0934f4f8e4"
-  },
-  {
-    "id": 158,
-    "title": "Numerical Logic",
-    "text": "Complete the sequence by identifying the underlying rule:\n\nZ, O, T, T, F, F, S, S, E, _",
-    "hint": "Zero, One, Two, Three...",
-    "answerHash": "1b16b1df538ba12dc3f97edbb85caa7050d46c148134290feba80f8236c83db9"
-  },
-  {
-    "id": 159,
-    "title": "Symmetrical Encryption",
-    "text": "The firewall only accepts letters with perfect vertical symmetry. Enter the next valid letter:\n\nA, H, I, M, O, T, U, V, W, X, _",
-    "hint": "If you draw a line down the middle, both sides look identical.",
-    "answerHash": "a1fce4363854ff888cff4b8e7875d600c2682390412a8cf79b37d0b11148b0fa"
-  },
-  {
-    "id": 160,
-    "title": "Acoustic Sequence",
-    "text": "The lock responds to musical notes in a standard C major scale. What completes the octave?\n\nC, D, E, F, G, A, _",
-    "hint": "The note right before it repeats back to C.",
-    "answerHash": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d"
-  },
-  {
-    "id": 161,
-    "title": "Atmospheric Anomaly",
-    "text": "I fly without wings. I cry without eyes. What am I?",
-    "hint": "You see them in the sky.",
-    "answerHash": "56681010b753e1abe52c449d0aab291b28f1808a3a91b6baeaa726883baad4b0"
-  },
-  {
-    "id": 162,
-    "title": "The Infinite Horizon",
-    "text": "What is always coming but never arrives?",
-    "hint": "The day after today.",
-    "answerHash": "bafd151a86f9a573b153e76e3a8a0053b3340ce304a301a5354288fb18bce848"
-  },
-  {
-    "id": 163,
-    "title": "The Barometer",
-    "text": "What goes up and down but doesn't move?",
-    "hint": "It measures how hot or cold a room is.",
-    "answerHash": "b314ae60cb741e69f1cc9105ad33b19e34f608c1d2658995d648f385d7b07ac5"
-  },
-  {
-    "id": 164,
-    "title": "Supernatural Safehouse",
-    "text": "What room do ghosts avoid?",
-    "hint": "A room where people are alive.",
-    "answerHash": "210c67b306f2ed16e65e2b3706518b3fdc9cd378a8b513602380372d024549c6"
-  },
-  {
-    "id": 165,
-    "title": "Audio Intercept",
-    "text": "What instrument can you hear but never see?",
-    "hint": "Everyone has one when they speak.",
-    "answerHash": "c57d7e92019708b614c90fa3685cd644f543a60153fb99ec9b67c381a245fb2a"
-  },
-  {
-    "id": 166,
-    "title": "Numeric Riddle",
-    "text": "If two's company, and three's a crowd, what are four and five?",
-    "hint": "Do the math. Add them together.",
-    "answerHash": "edcd8e701a2df0cd66a39bae6aa156cf16fe2b9653ef65f7d31742e2352421e4"
-  },
-  {
-    "id": 167,
-    "title": "Geometrical Puzzle",
-    "text": "You draw a line on a piece of paper. Without touching the line, how do you make it shorter?",
-    "hint": "Change its relative size.",
-    "answerHash": "0207424100388e0c16203f267ecd249d63ade79b6bab5f1f09c87589811ed35e"
-  },
-  {
-    "id": 168,
-    "title": "Weight Discrepancy",
-    "text": "I am easy to lift, but hard to throw. What am I?",
-    "hint": "It comes from a bird.",
-    "answerHash": "b52115ea553c55b7f70ceb81a97870163e02cb159d7d4717abb82d4e606e2465"
-  },
-  {
-    "id": 169,
-    "title": "Sensory Deprivation",
-    "text": "What tastes better than it smells?",
-    "hint": "It's the organ in your mouth.",
-    "answerHash": "b2715212d939ec804d6dba79efbb62ba7c0b2ae61772a83c1a8c8256ae1d9ad8"
-  },
-  {
-    "id": 170,
-    "title": "Chronological Paradox",
-    "text": "Where does today come before yesterday?",
-    "hint": "A book full of alphabetized words.",
-    "answerHash": "177ca70f42def1238e36da329473263ed3feadd14094c079a2230be0193436f5"
-  },
-  {
-    "id": 171,
-    "title": "Reverse Alphabet",
-    "text": "The enemy is using a retrograde alphabetic sequence. What comes next?\n\nZ, Y, X, W, V, _",
-    "hint": "The alphabet backwards.",
-    "answerHash": "0bfe935e70c321c7ca3afc75ce0d0ca2f98b5422e008bb31c00c6d7f1f1c0ad6"
-  },
-  {
-    "id": 172,
-    "title": "Shift Cipher Two",
-    "text": "The cipher shifts every letter exactly two spaces forward (A becomes C). Decrypt this target:\n\nA B C",
-    "hint": "Shift A, B, and C forward by 2 in the alphabet.",
-    "answerHash": "08a018a9549220d707e11c5c4fe94d8dd60825f010e71efaa91e5e784f364d7b"
-  },
-  {
-    "id": 173,
-    "title": "Retrograde Shift",
-    "text": "The cipher shifts every letter exactly one space backwards (B becomes A). Decrypt this target:\n\nB C D",
-    "hint": "Shift B, C, and D backwards by 1 in the alphabet.",
-    "answerHash": "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad"
-  },
-  {
-    "id": 174,
-    "title": "Atbash Cipher",
-    "text": "The Atbash cipher folds the alphabet in half, so A=Z, B=Y, C=X. Decrypt this target:\n\nA B C",
-    "hint": "The first three letters from the end of the alphabet.",
-    "answerHash": "aad3309d3ad597fc299a57bb10b57ed1c6e3ca43ad52aa4bdb951880d136ec3a"
-  },
-  {
-    "id": 175,
-    "title": "Vowel Isolation",
-    "text": "The passcode only uses the vowels of the English alphabet in order. What is the third character?\n\nA, E, _, O, U",
-    "hint": "The letter between E and O.",
-    "answerHash": "de7d1b721a1e0632b7cf04edf5032c8ecffa9f9a08492152b926f1a5a7e765d7"
-  },
-  {
-    "id": 176,
-    "title": "Phonetic Alphabet 01",
-    "text": "Complete the NATO Phonetic Alphabet sequence:\n\nCharlie, Delta, _",
-    "hint": "A word starting with E.",
-    "answerHash": "092c79e8f80e559e404bcf660c48f3522b67aba9ff1484b0367e1a4ddef7431d"
-  },
-  {
-    "id": 177,
-    "title": "Phonetic Alphabet 02",
-    "text": "Complete the NATO Phonetic Alphabet sequence:\n\nPapa, Quebec, _",
-    "hint": "A word starting with R.",
-    "answerHash": "b88b5eb909d1bd5215ce6dd44e64244afad213dc77b77691cc124a4621b30ebc"
-  },
-  {
-    "id": 178,
-    "title": "Binary Code",
-    "text": "The server logs display binary counting. 1 is 1. 2 is 10. 3 is 11. What is 4?",
-    "hint": "The next binary number after 11.",
-    "answerHash": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306"
-  },
-  {
-    "id": 179,
-    "title": "Hexadecimal Key",
-    "text": "The hexadecimal system uses letters for numbers above 9. 10 is A. 11 is B. What is 15?",
-    "hint": "Count up the alphabet to the 6th letter.",
-    "answerHash": "252f10c83610ebca1a059c0bae8255eba2f95be4d1d7bcfa89d7248a82d9f111"
-  },
-  {
-    "id": 180,
-    "title": "Roman Numerals",
-    "text": "Complete the Roman Numeral translation. 50 is L. 100 is C. What is 500?",
-    "hint": "The Roman Numeral for 500.",
-    "answerHash": "18ac3e7343f016890c510e93f935261169d9e3f565436429830faf0934f4f8e4"
-  },
-  {
-    "id": 181,
-    "title": "Economic Sabotage",
-    "text": "A bat and a ball cost $1.10 in total. The bat costs exactly $1.00 more than the ball. How many cents does the ball cost?",
-    "hint": "It is not 10 cents. If the ball was 10, the bat would be 1.10, making the total 1.20.",
-    "answerHash": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d"
-  },
-  {
-    "id": 182,
-    "title": "Industrial Output",
-    "text": "If it takes 5 machines 5 minutes to make 5 widgets, how many minutes does it take 100 machines to make 100 widgets?",
-    "hint": "Each machine takes 5 minutes to make its own widget.",
-    "answerHash": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d"
-  },
-  {
-    "id": 183,
-    "title": "Biological Growth",
-    "text": "In a lake, a patch of lily pads doubles in size every day. It takes 48 days to cover the lake. How many days did it take to cover half the lake?",
-    "hint": "Work backwards. If it doubles every day, what was it the day before the 48th day?",
-    "answerHash": "31489056e0916d59fe3add79e63f095af3ffb81604691f21cad442a85c7be617"
-  },
-  {
-    "id": 184,
-    "title": "The Farm Asset",
-    "text": "A farmer has 17 sheep, and all but 9 die. How many are left?",
-    "hint": "Read the phrasing very carefully.",
-    "answerHash": "19581e27de7ced00ff1ce50b2047e7a567c76b1cbaebabe5ef03f7c3017bb5b7"
-  },
-  {
-    "id": 185,
-    "title": "Numerical Subtraction",
-    "text": "How many times can you subtract 10 from 100?",
-    "hint": "After the first time, you are no longer subtracting from 100.",
-    "answerHash": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
-  },
-  {
-    "id": 186,
-    "title": "Mathematical Trap",
-    "text": "Divide 30 by half and add 10. What is the final number?",
-    "hint": "Dividing by a half (0.5) is the same as multiplying by 2.",
-    "answerHash": "ff5a1ae012afa5d4c889c50ad427aaf545d31a4fac04ffc1c4d03d403ba4250a"
-  },
-  {
-    "id": 187,
-    "title": "The Butcher's Weight",
-    "text": "A clerk at a butcher shop is five feet ten inches tall. What does he weigh?",
-    "hint": "Look at his profession, not his height.",
-    "answerHash": "59d6d61431fce7d91388d0c60374ddaadc1acd8370221e11b029621656d5ccec"
-  },
-  {
-    "id": 188,
-    "title": "Geographical History",
-    "text": "Before Mt. Everest was discovered, what was the highest mountain in the world?",
-    "hint": "Discovery doesn't change physical reality.",
-    "answerHash": "2b9ab4547cc63464a736000ec792ef1925244fa126d4527876f7f20b7c1fc9f2"
-  },
-  {
-    "id": 189,
-    "title": "Excavation Site",
-    "text": "How much dirt is in a hole that is 3 feet deep and 3 feet wide?",
-    "hint": "Think about the definition of a hole.",
-    "answerHash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9"
-  },
-  {
-    "id": 190,
-    "title": "Temporal Anomaly",
-    "text": "What appears once in a day, twice in a week, but never in a month?",
-    "hint": "Look at the letters in the words.",
-    "answerHash": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea"
-  },
-  {
-    "id": 191,
-    "title": "Headquarters Check",
-    "text": "Agent, confirm your knowledge. MI6 headquarters is located on the bank of which river?",
-    "hint": "The famous river running through London.",
-    "answerHash": "76ecabcd91da1c93593d42a073adafe6abf10e5f5b3d3a6788446e0862c23199"
-  },
-  {
-    "id": 192,
-    "title": "Enemy Agencies",
-    "text": "The KGB was the main security agency for which former global power?",
-    "hint": "The Union of Soviet Socialist Republics.",
-    "answerHash": "3f53a45ae6a039d4e9c703a0de6184b51f5ac3d72767362be16806abb90cfc08"
-  },
-  {
-    "id": 193,
-    "title": "Allied Agencies",
-    "text": "Langley, Virginia is home to the headquarters of which allied intelligence agency?",
-    "hint": "Central Intelligence Agency.",
-    "answerHash": "779d1ba1900f81e1ece4536c64382ed725a296f56fd77f3383bdf6b511637a55"
-  },
-  {
-    "id": 194,
-    "title": "Fictional Operatives",
-    "text": "What famous fictional British spy's numeric designation is 007?",
-    "hint": "Shaken, not stirred.",
-    "answerHash": "8b5d7649d443334e3a9b1dd80704d4838db6578ace1d3d72cd0541dd289ee069"
-  },
-  {
-    "id": 195,
-    "title": "Operational Terminology",
-    "text": "In espionage, an agent who penetrates a rival organization is named after a small, tunneling animal. What is it?",
-    "hint": "It lives underground and is blind.",
-    "answerHash": "e18ebaabb9f2fba0f9acbcf84e1e8bfdaa041eb52c186612c7d900d94378abf5"
-  },
-  {
-    "id": 196,
-    "title": "Cryptographic Terms",
-    "text": "A method that substitutes letters with other letters is called a substitution _____",
-    "hint": "Another word for a secret code.",
-    "answerHash": "c806cd9c716cfbfdb4763c71dd1394b3e602fce81291a0338bf8e3225416ac32"
-  },
-  {
-    "id": 197,
-    "title": "Covert Chemistry",
-    "text": "A classic, low-tech invisible ink can be made from a liquid commonly found in citrus fruits. What is it?",
-    "hint": "Squeezed from a yellow fruit.",
-    "answerHash": "d675cc76b2c1f64c02bf7f41a9afefca649fc53521afcbb5cb22444e6ea08db8"
-  },
-  {
-    "id": 198,
-    "title": "Historical Ciphers",
-    "text": "The 'Enigma' was a famous cipher machine used primarily by which country during WWII?",
-    "hint": "Alan Turing cracked their codes.",
-    "answerHash": "b2c01c8a8a0d9a99f145f099a963021f010dc608a8e992bd1a2aec958b48f32d"
-  },
-  {
-    "id": 199,
-    "title": "Cyber Security",
-    "text": "The process of making coded messages unreadable to unauthorized users is called...",
-    "hint": "Starts with an E.",
-    "answerHash": "bf86075ceab2af34c4bf04695936f6522b383cee6b0d377a410b470499ab5485"
-  },
-  {
-    "id": 200,
-    "title": "The Name of the Game",
-    "text": "Agent, finally, what does the 'HQ' in GCHQ stand for?",
-    "hint": "The central location of an organization.",
-    "answerHash": "582a5164e20a5be0f93bcd17cddc145d68fe9b8e76f591b8acda62af16e4caab"
+    "title": "The Final Extraction",
+    "text": "When the operation is over, agents leave their intel at the Dead ____.",
+    "hint": "The title of this terminal.",
+    "answerHash": "d90ee9ccf6bea1d2942a7b21319338198dec2a746f8a0d0771621f00da2e0864"
   }
 ]
