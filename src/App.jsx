@@ -196,7 +196,7 @@ export default function App() {
     else if (score >= 400) rank = "Senior Intelligence 🗄️";
     else if (score >= 200) rank = "Field Agent 🏃";
     else rank = "Burn Notice 🚨";
-    const shareText = `The Dead Drop - Day ${dayNum}\nRank: ${rank}\nScore: ${score}/500\n\n${blocks}\n\nDecrypt at: secure-terminal.com`;
+    const shareText = `The Dead Drop - Day ${dayNum}\nRank: ${rank}\nScore: ${score}/500\n\n${blocks}`;
     if (navigator.share) {
       try { await navigator.share({ title: 'The Dead Drop', text: shareText });
       } catch (err) { console.log("Share canceled", err); }
