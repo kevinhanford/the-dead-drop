@@ -287,10 +287,6 @@ export default function App() {
              <button onClick={handleShare} className={`w-full mb-4 py-3 rounded-xl transition-all duration-300 font-bold flex justify-center items-center space-x-2 ${copied ? 'bg-emerald-600 text-white' : 'bg-indigo-600 text-white hover:bg-indigo-500 shadow-lg shadow-indigo-500/20'}`}>
                 {copied ? <span>Copied!</span> : <><span>Share Results</span><svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" /></svg></>}
              </button>
-             <button onClick={() => setGameState('rules')} className="text-sm text-indigo-400 hover:text-indigo-300 transition-colors flex items-center space-x-1">
-               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-               <span>View Scoring Rules</span>
-             </button>
           </div>
         </div>
       </div>
